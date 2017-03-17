@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/activity_deail"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/w_match_h_match">
+
+    <include layout="@layout/menu_detail"/>
+    <FrameLayout
+        android:id="@+id/detail_frame"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <View
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/gray_bg"
+        />
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_gravity="center_vertical"
+        >
+        <LinearLayout
+            android:id="@+id/commentBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:gravity="left|center_vertical"
+            android:layout_marginLeft="10dp"
+            >
+            <ImageView
+                android:layout_width="25dp"
+                android:layout_height="25dp"
+                android:background="@mipmap/comment"
+                />
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="评论"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:id="@+id/googBtn"
+            android:layout_width="50dp"
+            android:layout_height="match_parent"
+            android:layout_toRightOf="@id/commentBtn"
+            android:orientation="vertical"
+            android:gravity="center"
+            android:layout_marginLeft="10dp"
+            >
+            <ImageView
+                android:id="@+id/good_icon"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@mipmap/good"
+                />
+            <TextView
+                android:id="@+id/good_number"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="3dp"
+                android:text="点赞"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/contact_button"
+            android:layout_width="120dp"
+            android:layout_height="match_parent"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="-5dp"
+            android:layout_marginRight="-5dp"
+            android:background="@drawable/bg_input_cursor"
+            android:text="联系物主"
+            android:textSize="18dp"
+            android:textColor="@color/white"
+            />
+
+
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,103 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    style="@style/w_match_h_match"
+    >
+
+    <FrameLayout
+        android:id="@+id/frame_layout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        />
+
+    <android.support.design.widget.FloatingActionButton
+        android:id="@+id/rl_click"
+        android:layout_width="48dp"
+        android:layout_height="48dp"
+        android:src="@mipmap/add"
+        android:background="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        />
+
+    <!--<RelativeLayout-->
+        <!--android:id="@+id/rl_click"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_alignParentBottom="true"-->
+        <!--android:layout_centerHorizontal="true"-->
+        <!--android:layout_marginBottom="20dp"-->
+        <!--&gt;-->
+
+        <!--<ImageView-->
+            <!--android:layout_width="50dip"-->
+            <!--android:layout_height="50dip"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:src="@drawable/add_circle" />-->
+
+        <!--<ImageView-->
+            <!--android:id="@+id/iv_img"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_centerInParent="true"-->
+            <!--android:src="@mipmap/add" />-->
+    <!--</RelativeLayout>-->
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/push_btn"
+        >
+
+
+        <RadioGroup
+            android:id="@+id/main_radioGroup"
+            android:layout_width="match_parent"
+            android:layout_height="47dp"
+            android:layout_gravity="bottom"
+            android:background="#00000000"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:layout_alignParentBottom="true"
+            android:layout_marginTop="-10dp"
+            >
+            <RadioButton
+                android:id="@+id/mainpage_radio"
+                style="@style/main_nav_bottom"
+                android:drawableTop="@drawable/selector_nav_mainpage"
+                android:text="主页"
+                />
+            <RadioButton
+                android:id="@+id/circlrpage_radio"
+                style="@style/main_nav_bottom"
+                android:layout_marginRight="30dp"
+                android:drawableTop="@drawable/selector_nav_circle"
+                android:text="圈子"
+                />
+
+            <RadioButton
+                android:id="@+id/mespage_radio"
+                style="@style/main_nav_bottom"
+                android:layout_marginLeft="30dp"
+                android:drawableTop="@drawable/selector_nav_messages"
+                android:text="消息"
+                />
+            <RadioButton
+                android:id="@+id/personpage_radio"
+                style="@style/main_nav_bottom"
+                android:drawableTop="@drawable/selector_nav_personpage"
+                android:text="我"
+                />
+
+        </RadioGroup>
+    </RelativeLayout>
+
+
+</RelativeLayout>
