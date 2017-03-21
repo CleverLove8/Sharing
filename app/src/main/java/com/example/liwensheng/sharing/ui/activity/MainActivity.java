@@ -60,8 +60,11 @@ public class MainActivity extends AppCompatActivity {
         BmobIM.connect(user.getObjectId(), new ConnectListener() {
             @Override
             public void done(String s, BmobException e) {
-                if (e != null) {
-                    e.printStackTrace();
+                if (e == null) {
+                    Toast.makeText(MainActivity.this, "连接成功", Toast.LENGTH_SHORT).show();
+                }
+                else {
+                    Toast.makeText(MainActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
                 }
             }
         });

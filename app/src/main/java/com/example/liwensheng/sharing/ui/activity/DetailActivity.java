@@ -27,6 +27,9 @@ import java.util.List;
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.bmob.newim.BmobIM;
+import cn.bmob.newim.bean.BmobIMConversation;
+import cn.bmob.newim.bean.BmobIMUserInfo;
 import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
@@ -113,7 +116,14 @@ public class DetailActivity extends AppCompatActivity {
 
             }
         });
-        startActivity(new Intent(DetailActivity.this, ChatActivity.class));
+        UserEntity user = BmobUser.getCurrentUser(UserEntity.class);
+        BmobIMUserInfo info = new BmobIMUserInfo(user.getObjectId(), user.getUsername(), user.getUser_icon().getFileUrl());
+        BmobIMConversation c = BmobIM.getInstance().startPrivateConversation(info, null);
+        Bundle bundle = new Bundle();
+        bundle.putSerializable("c", c);
+        Intent intent = new Intent(DetailActivity.this, ChatActivity.class);
+        intent.putExtras(bundle);
+        startActivity(intent);
     }
     /**
      * 点赞
