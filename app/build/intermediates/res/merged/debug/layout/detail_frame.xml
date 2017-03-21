@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
+        <RelativeLayout
+            style="@style/w_match_h_wrap"
+            android:layout_marginTop="8dp"
+            android:paddingBottom="3dp"
+            android:layout_marginLeft="10dp"
+            >
+            <de.hdodenhof.circleimageview.CircleImageView
+                android:id="@+id/detail_icon"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:src="@drawable/default_avatar"
+                android:layout_alignParentLeft="true"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="vertical"
+                android:layout_toRightOf="@+id/detail_icon"
+                android:paddingLeft="10dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+                    <TextView
+                        android:id="@+id/detail_user"
+                        style="@style/w_wrap_h_match"
+                        android:text="zhangsan"
+                        android:gravity="center_vertical"
+                        android:textColor="@color/clr_main_text"/>
+                    <TextView
+                        android:id="@+id/detail_time"
+                        style="@style/w_wrap_h_wrap"
+                        android:text="2017-01-01 00:00:00"
+                        android:textSize="10sp"
+                        android:paddingLeft="10dp"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:gravity="center_vertical">
+
+                    <TextView
+                        style="@style/w_wrap_h_wrap"
+                        android:text="来自: "
+                        android:textSize="10sp"
+                        android:layout_alignParentTop="true"/>
+
+                    <ImageView
+                        android:id="@+id/img_location"
+                        android:layout_width="12dp"
+                        android:layout_height="12dp"
+                        android:src="@drawable/location"/>
+
+                    <TextView
+                        android:id="@+id/detail_location"
+                        style="@style/w_wrap_h_wrap"
+                        android:text="地点"
+                        android:textSize="10sp"
+                        android:textColor="@android:color/holo_blue_dark"
+                        android:layout_marginLeft="2dp"/>
+
+                </LinearLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="5dp"
+            android:layout_marginLeft="10dp"
+            >
+            <TextView
+                android:id="@+id/detail_type"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="求借"
+                android:background="@color/bottom_btn_selected"
+                />
+            <TextView
+                android:id="@+id/detail_name"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="名称"
+                android:textSize="15dp"
+                />
+            <TextView
+                android:id="@+id/detail_howlong"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:text="一小时"
+                android:textSize="15dp"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="10dp"
+            android:gravity="top"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/detail_content"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="2dp"
+                android:gravity="top"
+                android:maxLines="4"
+                android:text="这个是内容预览"
+                android:textSize="12sp" />
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/detail_img"
+            android:layout_width="120dp"
+            android:layout_height="120dp"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="5dp"
+            android:visibility="visible" />
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center|center_vertical"
+            android:background="@drawable/btn_no_circle"
+            android:orientation="horizontal"
+            android:layout_marginTop="8dp"
+            >
+
+
+        </LinearLayout>
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/gray_bg"
+            />
+
+        <TextView
+            android:id="@+id/comment_number"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="还没有人评论喔"
+            android:layout_gravity="center"
+            />
+        <com.example.liwensheng.sharing.view.RefreshLayout
+            android:id="@+id/detail_refresh"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="2dp"
+            android:paddingTop="5dp"
+            >
+
+            <ListView
+                android:id="@+id/detail_listview"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"/>
+        </com.example.liwensheng.sharing.view.RefreshLayout>
+    </LinearLayout>
+</LinearLayout>

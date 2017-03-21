@@ -1,0 +1,30 @@
+[
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/add.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/add.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/ic_launcher_round.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/yx.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/yx.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/qiujie.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/qiujie.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/jiechu.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/jiechu.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-xhdpi/bg.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-xhdpi/bg.png"
+    }
+]

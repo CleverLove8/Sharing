@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_collect_selected.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_collect_selected.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_mainpage_selected.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_mainpage_selected.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_messages_normal.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_messages_normal.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_circlepage_normal.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_circlepage_normal.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_messages_selected.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_messages_selected.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_personpage_selected.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_personpage_selected.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_personpage_normal.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_personpage_normal.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_circlepage_selected.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_circlepage_selected.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_collect_normal.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_collect_normal.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-mdpi/ic_nav_mainpage_normal.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-mdpi/ic_nav_mainpage_normal.png"
+    }
+]

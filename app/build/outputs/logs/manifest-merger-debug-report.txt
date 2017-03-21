@@ -1,0 +1,304 @@
+-- Merging decision tree log ---
+manifest
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:2:1-145:12
+	package
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:3:5-45
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+	android:versionName
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+	xmlns:android
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:2:11-69
+	android:versionCode
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+uses-permission#android.permission.GET_ACCOUNTS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:6:5-70
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:6:22-68
+uses-permission#android.permission.READ_PROFILE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:7:5-70
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:7:22-68
+uses-permission#android.permission.READ_LOGS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:9:5-68
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:9:22-65
+uses-permission#android.permission.INTERNET
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:11:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:13:5-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:13:22-76
+uses-permission#android.permission.ACCESS_WIFI_STATE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:15:5-76
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:15:22-73
+uses-permission#android.permission.WAKE_LOCK
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:17:5-68
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:17:22-65
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:19:5-81
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:19:22-78
+uses-permission#android.permission.READ_PHONE_STATE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:21:5-75
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:21:22-72
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:23:5-71
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:23:22-68
+uses-permission#android.permission.CHANGE_NETWORK_STATE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:25:5-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:25:22-76
+uses-permission#android.permission.READ_CONTACTS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:27:5-72
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:27:22-69
+uses-permission#android.permission.RECEIVE_SMS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:29:5-70
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:29:22-67
+uses-permission#android.permission.SEND_SMS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:30:5-67
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:30:22-64
+uses-permission#android.permission.SYSTEM_ALERT_WINDOW
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:32:5-78
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:32:22-75
+uses-permission#android.permission.ACCESS_COARSE_LOCATION
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:34:5-80
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:34:22-78
+uses-permission#android.permission.ACCESS_FINE_LOCATION
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:36:5-78
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:36:22-76
+uses-permission#android.permission.MOUNT_UNMOUNT_FILESYSTEMS
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:38:5-83
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:38:22-81
+uses-permission#android.permission.CAMERA
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:42:5-65
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:42:22-62
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:53:5-80
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:53:22-77
+uses-permission#android.permission.VIBRATE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:59:5-66
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:59:22-63
+application
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:61:5-143:19
+MERGED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:transition:25.2.0] /Users/liWensheng/.android/build-cache/a671d2134ccf3a2bb539941e2e0015a9ad622242/output/AndroidManifest.xml:22:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/liWensheng/.android/build-cache/1077fbf8e3099a20b3d50d96aec299592efd7a54/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/liWensheng/.android/build-cache/5ccb0a53d0707f5ae1b26c4de313741a7e631df2/output/AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/liWensheng/.android/build-cache/a0cff98ec164346a9e6e4aa44ef75e3a8d1087b3/output/AndroidManifest.xml:23:5-20
+MERGED from [com.android.support:support-v4:25.2.0] /Users/liWensheng/.android/build-cache/2f5b08ef1af8e4747f574f145d6f9aa7cb42ff6b/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/liWensheng/.android/build-cache/56d30556c8661f1d50cb3fc4be86d46a3f0aa4d9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/liWensheng/.android/build-cache/c8d291647df13f5fdfa72d32a349c31e2f6209bd/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/liWensheng/.android/build-cache/c4064000a6906742afb02030e6820f4dc19a78c9/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/liWensheng/.android/build-cache/671cabb1709d55f5a5ffdb944d4cb051a17937d4/output/AndroidManifest.xml:25:5-20
+MERGED from [com.android.support:support-compat:25.2.0] /Users/liWensheng/.android/build-cache/e9d79ed979f34abb7d45bf6d256590e6f6381727/output/AndroidManifest.xml:25:5-20
+MERGED from [cn.bmob.android:bmob-im:2.0.5] /Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/AndroidManifest.xml:11:5-15:19
+MERGED from [cn.bmob.android:bmob-sdk:3.5.0] /Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/AndroidManifest.xml:11:5-14:19
+MERGED from [com.orhanobut:logger:1.4] /Users/liWensheng/.android/build-cache/0aa77879e00b0b687db5c79264752eafc05d1cab/output/AndroidManifest.xml:11:5-47
+	android:label
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:64:9-41
+	android:supportsRtl
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:65:9-35
+	android:allowBackup
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:62:9-35
+	android:icon
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:63:9-43
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:66:9-40
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:67:9-40
+activity#com.example.liwensheng.sharing.ui.activity.Welcome
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:70:9-79:20
+	android:screenOrientation
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:72:13-49
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:73:13-56
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:71:13-48
+intent-filter#android.intent.action.MAIN+android.intent.category.LAUNCHER
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:74:13-78:29
+action#android.intent.action.MAIN
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:75:17-69
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:75:25-66
+category#android.intent.category.LAUNCHER
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:77:17-77
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:77:27-74
+activity#com.example.liwensheng.sharing.ui.activity.MainActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:80:9-83:55
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:83:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:82:13-45
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:81:13-53
+activity#com.example.liwensheng.sharing.ui.activity.RegisterActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:84:9-87:54
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:87:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:86:13-56
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:85:13-57
+activity#com.example.liwensheng.sharing.ui.activity.LoginPage
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:88:9-92:15
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:91:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:90:13-56
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:89:13-50
+activity#com.example.liwensheng.sharing.ui.activity.PushActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:93:9-61
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:93:19-59
+activity#com.example.liwensheng.sharing.ui.activity.QueryActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:94:9-96:15
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:95:13-54
+activity#com.example.liwensheng.sharing.ui.activity.DetailActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:97:9-63
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:97:19-61
+activity#com.example.liwensheng.sharing.ui.activity.ShowImg
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:98:9-102:15
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:101:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:100:13-44
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:99:13-48
+activity#com.example.liwensheng.sharing.ui.activity.HistoryActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:103:9-64
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:103:19-62
+activity#com.example.liwensheng.sharing.ui.activity.CommentActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:104:9-64
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:104:19-62
+activity#com.example.liwensheng.sharing.ui.activity.MesGood
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:105:9-109:15
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:108:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:107:13-44
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:106:13-48
+activity#com.example.liwensheng.sharing.ui.activity.MesComment
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:110:9-59
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:110:19-57
+activity#com.example.liwensheng.sharing.ui.activity.TypeDetail
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:111:9-114:15
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:113:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:112:13-44
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:111:19-57
+activity#com.example.liwensheng.sharing.ui.activity.ChatActivity
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:115:9-118:15
+	android:windowSoftInputMode
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:117:13-52
+	android:theme
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:116:13-44
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:115:19-59
+receiver#cn.bmob.newim.core.ConnectChangeReceiver
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:120:9-127:20
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:120:19-74
+intent-filter#android.intent.action.BOOT_COMPLETED+android.intent.action.USER_PRESENT+android.net.conn.CONNECTIVITY_CHANGE+cn.bmob.action.RECONNECT
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:121:13-126:29
+action#cn.bmob.action.RECONNECT
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:122:17-67
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:122:25-64
+action#android.net.conn.CONNECTIVITY_CHANGE
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:123:17-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:123:25-76
+action#android.intent.action.BOOT_COMPLETED
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:124:17-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:124:25-76
+action#android.intent.action.USER_PRESENT
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:125:17-77
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:125:25-74
+service#cn.bmob.newim.core.service.BmobIMService
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:129:9-131:43
+	android:process
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:131:13-40
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:130:13-68
+service#cn.bmob.newim.core.service.NotifyService
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:132:9-134:43
+	android:process
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:134:13-40
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:133:13-68
+service#cn.bmob.newim.core.service.ReConnectService
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:135:9-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:135:18-76
+service#cn.bmob.newim.core.service.HeartBeatService
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:136:9-79
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:136:18-76
+meta-data#Bmob_APP_KEY
+ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:139:9-141:64
+	android:value
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:141:13-61
+	android:name
+		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:140:13-40
+uses-sdk
+INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+MERGED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/liWensheng/.android/build-cache/9af26216cec5d4a4e3c4d9e1be59c578a2160a60/output/AndroidManifest.xml:20:5-43
+MERGED from [com.android.support:transition:25.2.0] /Users/liWensheng/.android/build-cache/a671d2134ccf3a2bb539941e2e0015a9ad622242/output/AndroidManifest.xml:20:5-44
+MERGED from [com.jakewharton:butterknife:8.4.0] /Users/liWensheng/.android/build-cache/497924961fdc743ce85225632ac931a3dd4eb71e/output/AndroidManifest.xml:5:5-43
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:cardview-v7:25.2.0] /Users/liWensheng/.android/build-cache/1077fbf8e3099a20b3d50d96aec299592efd7a54/output/AndroidManifest.xml:20:5-43
+MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] /Users/liWensheng/.android/build-cache/c9fca0cbbc308b6f1d97578ae3e550fdc85bd254/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:appcompat-v7:25.2.0] /Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:animated-vector-drawable:25.2.0] /Users/liWensheng/.android/build-cache/5ccb0a53d0707f5ae1b26c4de313741a7e631df2/output/AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:25.2.0] /Users/liWensheng/.android/build-cache/a0cff98ec164346a9e6e4aa44ef75e3a8d1087b3/output/AndroidManifest.xml:21:5-43
+MERGED from [com.android.support:support-v4:25.2.0] /Users/liWensheng/.android/build-cache/2f5b08ef1af8e4747f574f145d6f9aa7cb42ff6b/output/AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-fragment:25.2.0] /Users/liWensheng/.android/build-cache/56d30556c8661f1d50cb3fc4be86d46a3f0aa4d9/output/AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-media-compat:25.2.0] /Users/liWensheng/.android/build-cache/c8d291647df13f5fdfa72d32a349c31e2f6209bd/output/AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-ui:25.2.0] /Users/liWensheng/.android/build-cache/c4064000a6906742afb02030e6820f4dc19a78c9/output/AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-utils:25.2.0] /Users/liWensheng/.android/build-cache/671cabb1709d55f5a5ffdb944d4cb051a17937d4/output/AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:25.2.0] /Users/liWensheng/.android/build-cache/e9d79ed979f34abb7d45bf6d256590e6f6381727/output/AndroidManifest.xml:21:5-23:58
+MERGED from [cn.bmob.android:bmob-im:2.0.5] /Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/AndroidManifest.xml:7:5-9:41
+MERGED from [cn.bmob.android:bmob-sdk:3.5.0] /Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/AndroidManifest.xml:7:5-9:41
+MERGED from [com.orhanobut:logger:1.4] /Users/liWensheng/.android/build-cache/0aa77879e00b0b687db5c79264752eafc05d1cab/output/AndroidManifest.xml:7:5-9:41
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml

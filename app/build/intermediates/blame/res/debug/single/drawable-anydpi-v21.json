@@ -1,0 +1,50 @@
+[
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_collect_selected.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_collect_selected.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_mainpage_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_mainpage_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_personpage_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_personpage_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_collect_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_collect_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_messages_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_messages_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility_off.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable-anydpi-v21/design_ic_visibility_off.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_circlepage_selected.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_circlepage_selected.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/design_ic_visibility.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable-anydpi-v21/design_ic_visibility.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_circlepage_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_circlepage_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_personpage_selected.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_personpage_selected.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_mainpage_selected.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_mainpage_selected.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable-anydpi-v21/ic_nav_messages_selected.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/build/generated/res/pngs/debug/drawable-anydpi-v21/ic_nav_messages_selected.xml"
+    }
+]

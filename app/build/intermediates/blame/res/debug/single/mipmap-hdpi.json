@@ -1,0 +1,42 @@
+[
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/tool.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/tool.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/ic_launcher.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/good.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/good.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/default_avatar.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/default_avatar.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/comment.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/comment.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/cloth.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/cloth.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/book.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/book.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/good_2.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/good_2.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/dianzi.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/dianzi.png"
+    }
+]

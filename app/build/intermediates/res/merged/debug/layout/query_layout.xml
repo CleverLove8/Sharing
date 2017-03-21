@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <include layout="@layout/menu_search"/>
+    <TextView
+        android:id="@+id/textNo"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="10dp"
+        android:text="搜索结果"
+        />
+    <com.example.liwensheng.sharing.view.RefreshLayout
+        android:layout_marginTop="30dp"
+        android:id="@+id/query_Refresh"
+        style="@style/w_match_h_match">
+        <ListView
+            android:id="@+id/query_list"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.example.liwensheng.sharing.view.RefreshLayout>
+</LinearLayout>

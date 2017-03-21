@@ -1,0 +1,7 @@
+#Fri Mar 17 23:11:03 CST 2017
+base.0=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e835f42064485b77ac2ca55bf74c5de0bf5a130
+renamed.1=classes.dex
+renamed.0=classes2.dex
+file.1=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_71c2f4414ed359a67de2f10854e25e83ddbed36f/classes.dex
+base.1=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_71c2f4414ed359a67de2f10854e25e83ddbed36f
+file.0=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e835f42064485b77ac2ca55bf74c5de0bf5a130/classes.dex

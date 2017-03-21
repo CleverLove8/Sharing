@@ -1,0 +1,458 @@
+[
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/notification_bg.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/notification_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_dark.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_item_background_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_logout_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_logout_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/location.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/location.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_focused.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_cancel_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_arrow_drop_right_black_24dp.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_arrow_drop_right_black_24dp.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_add_location_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_add_location_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/default_avatar.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/default_avatar.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/notification_bg_low.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/notification_bg_low.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_edit_text_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_edit_text_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_go_search_api_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_go_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_nav_messages.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_nav_messages.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/navigation_empty_icon.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable/navigation_empty_icon.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/design_fab_background.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable/design_fab_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_dialog_material_background.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_dialog_material_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/radiobtn_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/radiobtn_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_add_picture_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_add_picture_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_emo_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_emo_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/chat_voice_bg.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/chat_voice_bg.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_logout_n.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_logout_n.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/dialog_white_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/dialog_white_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_check_selector.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_check_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_voice_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_voice_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_btn_default_mtrl_shape.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/drawable_edit_normal.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/drawable_edit_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_wifi_disable.png",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_wifi_disable.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/contact_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/contact_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/mes_item_gb.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/mes_item_gb.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_fail_resend.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_fail_resend.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/plus.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/plus.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_normal.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_ok_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_dialog_bg.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_dialog_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_text_cursor_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_text_cursor_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_btn_check_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_btn_check_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_top_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_cab_background_top_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_bg_edit_2.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_bg_edit_2.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_nav_text_color.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_nav_text_color.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_switch_thumb_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_switch_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bg_input_cursor_2.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bg_input_cursor_2.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/search_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/search_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/comment_bck.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/comment_bck.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/close.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/close.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/base_comment_emo_bar.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/base_comment_emo_bar.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_vector_test.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_vector_test.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_tap.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_ok_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/push_btn.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/push_btn.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ratingbar_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_clear_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_clear_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_light.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_list_selector_holo_light.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_btn_radio_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_btn_radio_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_indicator_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ratingbar_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_nav_mainpage.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_nav_mainpage.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/state_list_animator_z.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/state_list_animator_z.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_item_background_holo_light.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_item_background_holo_light.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_search_api_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_dark.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/shape_bk.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/shape_bk.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_textfield_search_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_textfield_search_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/chat_left_qp.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/chat_left_qp.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_add_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_add_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/design_snackbar_background.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable/design_snackbar_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_nav_circle.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_nav_circle.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/chat_voice_bg_press.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/chat_voice_bg_press.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_thumb_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_seekbar_thumb_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ratingbar_small_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ratingbar_small_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_holo_dark.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_list_selector_holo_dark.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bg_input_cursor.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bg_input_cursor.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/add_circle.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/add_circle.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_voice_search_api_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_voice_search_api_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_selector.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_cancel_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/mes_all_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/mes_all_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_tab_indicator_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_tab_indicator_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_tap.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_cancel_bg_tap.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_nav_personpage.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_nav_personpage.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_bg_edit.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_bg_edit.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_btn_borderless_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_btn_borderless_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_ab_back_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_ab_back_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_keyboard_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_keyboard_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_btn_colored_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_btn_colored_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_ic_menu_overflow_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_ic_menu_overflow_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_track_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_seekbar_track_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/select_bar.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/select_bar.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/push.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/push.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_send_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_send_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_record_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_record_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bottom_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bottom_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_chat_add_camera_selector.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_chat_add_camera_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/notification_icon_background.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/notification_icon_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_logout_p.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_logout_p.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bg.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bg.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/fab_label_background.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/fab_label_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/chat_right_qp.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/chat_right_qp.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/progress_small.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/progress_small.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_cancel_bg_normal.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_cancel_bg_normal.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bt_shape.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bt_shape.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/selector_collect.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/selector_collect.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/chat_top_voice_bg.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/chat_top_voice_bg.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_seekbar_tick_mark_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_seekbar_tick_mark_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_cab_background_internal_bg.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_cab_background_internal_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/plus_x.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/plus_x.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/comment_drawable.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/comment_drawable.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/design_bottom_navigation_item_background.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable/design_bottom_navigation_item_background.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/design_password_eye.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/drawable/design_password_eye.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_focused.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_ok_bg_focused.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_ok_bg_selector.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_ok_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bmob_update_button_close_bg_selector.xml",
+        "source": "/Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/res/drawable/bmob_update_button_close_bg_selector.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_spinner_textfield_background_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_spinner_textfield_background_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/abc_list_selector_background_transition_holo_light.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/abc_list_selector_background_transition_holo_light.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/btn_no_circle.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/btn_no_circle.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/location_default.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/location_default.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/back.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/back.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/notification_tile_bg.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/drawable/notification_tile_bg.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/drawable/bt_shape_2.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/drawable/bt_shape_2.xml"
+    }
+]
