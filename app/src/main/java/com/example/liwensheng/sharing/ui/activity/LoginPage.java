@@ -18,6 +18,9 @@ import android.widget.CheckBox;
 import android.widget.EditText;
 import android.widget.Toast;
 
+import com.avos.avoscloud.im.v2.AVIMClient;
+import com.avos.avoscloud.im.v2.AVIMException;
+import com.avos.avoscloud.im.v2.callback.AVIMClientCallback;
 import com.example.liwensheng.sharing.R;
 import com.example.liwensheng.sharing.entity.UserEntity;
 import com.example.liwensheng.sharing.utils.SPUtils;
@@ -29,6 +32,7 @@ import butterknife.OnClick;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.LogInListener;
+import cn.leancloud.chatkit.LCChatKit;
 
 /**
  * Created by zhangliangjun on 2017/3/4.
@@ -108,6 +112,7 @@ public class LoginPage extends AppCompatActivity {
                         public void done(UserEntity user, BmobException e) {
                             dialog.dismiss();
                             if (user != null) {
+                                initClient();
                                 Toast.makeText(LoginPage.this, "登录成功！", Toast.LENGTH_LONG).show();
                                 startActivity(new Intent(LoginPage.this, MainActivity.class));
                                 finish();
@@ -123,5 +128,16 @@ public class LoginPage extends AppCompatActivity {
                 }
                 break;
         }
+    }
+
+    private void initClient() {
+        LCChatKit.getInstance().open(BmobUser.getCurrentUser(UserEntity.class).getUsername()
+                , new AVIMClientCallback() {
+                    @Override
+                    public void done(AVIMClient avimClient, AVIMException e) {
+                        if (e != null)
+                            e.printStackTrace();
+                    }
+                });
     }
 }

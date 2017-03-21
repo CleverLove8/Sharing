@@ -1,5 +1,9 @@
 [
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_conversation_fragment.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_conversation_fragment.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_search.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_search.xml"
     },
@@ -8,16 +12,12 @@
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_action_menu_item_layout.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_sent_location.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_sent_location.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_record_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_record_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_action_bar_view_list_nav_layout.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_action_bar_view_list_nav_layout.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_sent_message.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_sent_message.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/select_dialog_multichoice_material.xml",
@@ -32,16 +32,20 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_detail.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_type_detail.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_type_detail.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_comment_detail.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_comment_detail.xml"
     },
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_type_detail.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_type_detail.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mainpage_layout.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mainpage_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_bottom_bar_text_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_bottom_bar_text_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_button_bar_material.xml",
@@ -56,32 +60,16 @@
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_expanded_menu_layout.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/layout_pic.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/layout_pic.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_layout_tab_icon.xml",
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_layout_tab_icon.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_contact.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_contact.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_received_message.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_received_message.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/layout_pic.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/layout_pic.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/popup_menu.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/popup_menu.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_chat_now.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_chat_now.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_sent_image.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_sent_image.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_header_item_layout.xml",
@@ -92,32 +80,40 @@
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_list_menu_item_icon.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mes_comment_layout.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mes_comment_layout.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_conversation_activity.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_conversation_activity.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_menu_item_action_area.xml",
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_menu_item_action_area.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mes_item.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mes_item.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mes_comment_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mes_comment_layout.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/include_chat_bottom_bar.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/include_chat_bottom_bar.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_right_text_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_right_text_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_left_audio_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_left_audio_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mes_item.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mes_item.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_screen_simple_overlay_action_mode.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
-        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_layout_tab_text.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_action_mode_bar.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_action_mode_bar.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_layout_tab_text.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_layout_tab_text.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_screen_content_include.xml",
@@ -130,6 +126,10 @@
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_push.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_push.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_left_text_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_left_text_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/notification_template_media_custom.xml",
@@ -176,12 +176,20 @@
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_bottom_sheet_dialog.xml"
     },
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_input_bottom_bar_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_input_bottom_bar_layout.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_title_material.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_alert_dialog_title_material.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/menu_good_detail.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_good_detail.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_bottom_bar_more_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_bottom_bar_more_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_search_view.xml",
@@ -196,28 +204,48 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/menu_history.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
-        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_popup_menu_item_layout.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/select_dialog_item_material.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/select_dialog_item_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_popup_menu_item_layout.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_popup_menu_item_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_alert_dialog_material.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_alert_dialog_material.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
-        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/select_dialog_singlechoice_material.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_layout.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_list_menu_item_layout.xml"
     },
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/select_dialog_singlechoice_material.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/select_dialog_singlechoice_material.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_image_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_image_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_left_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_left_layout.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/notification_template_icon_group.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/notification_template_icon_group.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_conversation_item.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_conversation_item.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_common_header_item_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_common_header_item_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_image_brower_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_image_brower_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_action_menu_layout.xml",
@@ -226,6 +254,10 @@
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/detail_layout.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/detail_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_load_more_footer_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_load_more_footer_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/comment_layout.xml",
@@ -244,10 +276,6 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/dialog_loading.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/include_chat_add.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/include_chat_add.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/messagepage_layout.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/messagepage_layout.xml"
     },
@@ -256,8 +284,28 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/query_layout.xml"
     },
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_conversation_list_fragment.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_conversation_list_fragment.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_right_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_right_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_right_audio_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_right_audio_layout.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_action_bar_title_item.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_action_bar_title_item.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_chat_item_location.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_chat_item_location.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
+        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_navigation_item_separator.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_footer.xml",
@@ -268,12 +316,12 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/dialog_photo.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_navigation_item_separator.xml",
-        "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_navigation_item_separator.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/mes_good_layout.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/mes_good_layout.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_bottom_bar_action_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_bottom_bar_action_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/detail_frame.xml",
@@ -298,10 +346,6 @@
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_navigation_menu.xml",
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_navigation_menu.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/activity_chat.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/activity_chat.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_select_dialog_material.xml",
@@ -334,10 +378,6 @@
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/design_bottom_navigation_item.xml",
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_bottom_navigation_item.xml"
-    },
-    {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_received_image.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_received_image.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_action_bar_up_container.xml",
@@ -380,20 +420,20 @@
         "source": "/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/res/layout/design_navigation_item.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
-        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/notification_template_part_chronometer.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/activity_login_page.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/activity_login_page.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/item_chat_received_location.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/item_chat_received_location.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/notification_template_part_chronometer.xml",
+        "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/notification_template_part_chronometer.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_activity_chooser_view.xml",
         "source": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/layout/abc_activity_chooser_view.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/lcim_common_footer_item_layout.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/res/layout/lcim_common_footer_item_layout.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/abc_list_menu_item_checkbox.xml",

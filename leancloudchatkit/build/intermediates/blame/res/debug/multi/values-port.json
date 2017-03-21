@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/liWensheng/Desktop/MyApplication/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
+        "outputFile": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-port/values-port.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 106
                 },
                 "from": {
-                    "file": "/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/res/values-port/values-port.xml",
+                    "file": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/values-port/values-port.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,

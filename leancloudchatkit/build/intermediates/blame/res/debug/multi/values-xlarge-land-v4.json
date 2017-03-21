@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/liWensheng/Desktop/MyApplication/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
+        "outputFile": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-xlarge-land-v4/values-xlarge-land-v4.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 114
                 },
                 "from": {
-                    "file": "/Users/liWensheng/.android/build-cache/aa4af1407fa857ec061b4e141d9894062cbcdebc/output/res/values-xlarge-land/values-xlarge-land.xml",
+                    "file": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/values-xlarge-land-v4/values-xlarge-land-v4.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 295,
+                        "startOffset": 55,
                         "endColumn": 63,
-                        "endOffset": 354
+                        "endOffset": 114
                     }
                 }
             }

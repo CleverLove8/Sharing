@@ -112,10 +112,6 @@
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan"
             />
-        <activity android:name=".ui.activity.ChatActivity"
-            android:theme="@style/AppTheme"
-            android:windowSoftInputMode="adjustPan"
-            />
 
         <receiver android:name="cn.bmob.newim.core.ConnectChangeReceiver">
             <intent-filter>

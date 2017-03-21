@@ -17,7 +17,7 @@ import java.lang.Override;
 public class MesComment_ViewBinding<T extends MesComment> implements Unbinder {
   protected T target;
 
-  private View view2131689726;
+  private View view2131689751;
 
   @UiThread
   public MesComment_ViewBinding(final T target, View source) {
@@ -26,7 +26,7 @@ public class MesComment_ViewBinding<T extends MesComment> implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.comment_back_btn, "field 'back_btn' and method 'goBack'");
     target.back_btn = Utils.castView(view, R.id.comment_back_btn, "field 'back_btn'", LinearLayout.class);
-    view2131689726 = view;
+    view2131689751 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -47,8 +47,8 @@ public class MesComment_ViewBinding<T extends MesComment> implements Unbinder {
     target.mRefreshLayout = null;
     target.listView = null;
 
-    view2131689726.setOnClickListener(null);
-    view2131689726 = null;
+    view2131689751.setOnClickListener(null);
+    view2131689751 = null;
 
     this.target = null;
   }

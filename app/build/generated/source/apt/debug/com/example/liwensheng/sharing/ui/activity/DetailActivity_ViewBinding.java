@@ -15,11 +15,11 @@ import java.lang.Override;
 public class DetailActivity_ViewBinding<T extends DetailActivity> implements Unbinder {
   protected T target;
 
-  private View view2131689672;
+  private View view2131689666;
 
-  private View view2131689669;
+  private View view2131689663;
 
-  private View view2131689668;
+  private View view2131689662;
 
   @UiThread
   public DetailActivity_ViewBinding(final T target, View source) {
@@ -28,7 +28,7 @@ public class DetailActivity_ViewBinding<T extends DetailActivity> implements Unb
     View view;
     target.good_icon = Utils.findRequiredViewAsType(source, R.id.good_icon, "field 'good_icon'", ImageView.class);
     view = Utils.findRequiredView(source, R.id.contact_button, "method 'ContactClick'");
-    view2131689672 = view;
+    view2131689666 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class DetailActivity_ViewBinding<T extends DetailActivity> implements Unb
       }
     });
     view = Utils.findRequiredView(source, R.id.googBtn, "method 'GoodClick'");
-    view2131689669 = view;
+    view2131689663 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class DetailActivity_ViewBinding<T extends DetailActivity> implements Unb
       }
     });
     view = Utils.findRequiredView(source, R.id.commentBtn, "method 'CommentClick'");
-    view2131689668 = view;
+    view2131689662 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,12 +61,12 @@ public class DetailActivity_ViewBinding<T extends DetailActivity> implements Unb
 
     target.good_icon = null;
 
-    view2131689672.setOnClickListener(null);
-    view2131689672 = null;
-    view2131689669.setOnClickListener(null);
-    view2131689669 = null;
-    view2131689668.setOnClickListener(null);
-    view2131689668 = null;
+    view2131689666.setOnClickListener(null);
+    view2131689666 = null;
+    view2131689663.setOnClickListener(null);
+    view2131689663 = null;
+    view2131689662.setOnClickListener(null);
+    view2131689662 = null;
 
     this.target = null;
   }

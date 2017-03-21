@@ -34,6 +34,7 @@ import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
+import cn.leancloud.chatkit.activity.LCIMConversationListFragment;
 
 /**
  * Created by liWensheng on 2017/2/28.
@@ -64,6 +65,7 @@ public class MessagesPageFragment extends BaseFragment {
         ButterKnife.bind(this, view);
 
         getData();
+        initMesFrame();
         return view;
     }
 
@@ -86,6 +88,14 @@ public class MessagesPageFragment extends BaseFragment {
                 break;
         }
 
+    }
+
+    private void initMesFrame() {
+        FragmentManager manager = getActivity().getSupportFragmentManager();
+        FragmentTransaction transaction = manager.beginTransaction();
+
+//        Fragment chatFrame = new LCIMConversationListFragment();
+        transaction.replace(R.id.contact_frame, new LCIMConversationListFragment()).addToBackStack(null).commit();
     }
 
     /**

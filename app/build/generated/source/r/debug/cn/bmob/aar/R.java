@@ -30,16 +30,16 @@ public final class R {
         public static final int bmob_update_wifi_disable = 0x7f02006e;
     }
     public static final class id {
-        public static final int bmob_update_content = 0x7f0f009d;
-        public static final int bmob_update_id_cancel = 0x7f0f00a0;
-        public static final int bmob_update_id_check = 0x7f0f009e;
-        public static final int bmob_update_id_close = 0x7f0f009c;
-        public static final int bmob_update_id_ignore = 0x7f0f00a1;
-        public static final int bmob_update_id_ok = 0x7f0f009f;
-        public static final int bmob_update_wifi_indicator = 0x7f0f009b;
+        public static final int bmob_update_content = 0x7f0f0097;
+        public static final int bmob_update_id_cancel = 0x7f0f009a;
+        public static final int bmob_update_id_check = 0x7f0f0098;
+        public static final int bmob_update_id_close = 0x7f0f0096;
+        public static final int bmob_update_id_ignore = 0x7f0f009b;
+        public static final int bmob_update_id_ok = 0x7f0f0099;
+        public static final int bmob_update_wifi_indicator = 0x7f0f0095;
     }
     public static final class layout {
-        public static final int bmob_update_dialog = 0x7f040020;
+        public static final int bmob_update_dialog = 0x7f04001f;
     }
     public static final class string {
         public static final int BMAppUpdate = 0x7f080015;

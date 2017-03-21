@@ -15,7 +15,7 @@ import java.lang.Override;
 public class ShowImg_ViewBinding<T extends ShowImg> implements Unbinder {
   protected T target;
 
-  private View view2131689792;
+  private View view2131689817;
 
   @UiThread
   public ShowImg_ViewBinding(final T target, View source) {
@@ -24,7 +24,7 @@ public class ShowImg_ViewBinding<T extends ShowImg> implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.showBackground, "field 'imageView' and method 'closeImg'");
     target.imageView = Utils.castView(view, R.id.showBackground, "field 'imageView'", ImageView.class);
-    view2131689792 = view;
+    view2131689817 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -41,8 +41,8 @@ public class ShowImg_ViewBinding<T extends ShowImg> implements Unbinder {
 
     target.imageView = null;
 
-    view2131689792.setOnClickListener(null);
-    view2131689792 = null;
+    view2131689817.setOnClickListener(null);
+    view2131689817 = null;
 
     this.target = null;
   }

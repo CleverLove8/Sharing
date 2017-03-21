@@ -18,9 +18,9 @@ import java.lang.Override;
 public class PushActivity_ViewBinding<T extends PushActivity> implements Unbinder {
   protected T target;
 
-  private View view2131689729;
+  private View view2131689754;
 
-  private View view2131689781;
+  private View view2131689806;
 
   @UiThread
   public PushActivity_ViewBinding(final T target, View source) {
@@ -36,7 +36,7 @@ public class PushActivity_ViewBinding<T extends PushActivity> implements Unbinde
     target.mRadioGroup = Utils.findRequiredViewAsType(source, R.id.et_type, "field 'mRadioGroup'", RadioGroup.class);
     view = Utils.findRequiredView(source, R.id.push_button, "field 'push_btn' and method 'push'");
     target.push_btn = Utils.castView(view, R.id.push_button, "field 'push_btn'", TextView.class);
-    view2131689729 = view;
+    view2131689754 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -44,7 +44,7 @@ public class PushActivity_ViewBinding<T extends PushActivity> implements Unbinde
       }
     });
     view = Utils.findRequiredView(source, R.id.img_plus, "method 'onForget'");
-    view2131689781 = view;
+    view2131689806 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -68,10 +68,10 @@ public class PushActivity_ViewBinding<T extends PushActivity> implements Unbinde
     target.mRadioGroup = null;
     target.push_btn = null;
 
-    view2131689729.setOnClickListener(null);
-    view2131689729 = null;
-    view2131689781.setOnClickListener(null);
-    view2131689781 = null;
+    view2131689754.setOnClickListener(null);
+    view2131689754 = null;
+    view2131689806.setOnClickListener(null);
+    view2131689806 = null;
 
     this.target = null;
   }

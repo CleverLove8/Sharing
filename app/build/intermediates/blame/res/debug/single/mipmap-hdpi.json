@@ -12,12 +12,12 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/good.png"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/default_avatar.png",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/default_avatar.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/ic_launcher_round.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-hdpi/ic_launcher_round.png"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-hdpi/comment.png",

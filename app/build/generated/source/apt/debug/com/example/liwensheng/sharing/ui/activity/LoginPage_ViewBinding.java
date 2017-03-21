@@ -17,9 +17,9 @@ import java.lang.Override;
 public class LoginPage_ViewBinding<T extends LoginPage> implements Unbinder {
   protected T target;
 
-  private View view2131689613;
+  private View view2131689607;
 
-  private View view2131689614;
+  private View view2131689608;
 
   @UiThread
   public LoginPage_ViewBinding(final T target, View source) {
@@ -30,7 +30,7 @@ public class LoginPage_ViewBinding<T extends LoginPage> implements Unbinder {
     target.etPassword = Utils.findRequiredViewAsType(source, R.id.et_password, "field 'etPassword'", EditText.class);
     view = Utils.findRequiredView(source, R.id.bt_go, "field 'btGo' and method 'onClick'");
     target.btGo = Utils.castView(view, R.id.bt_go, "field 'btGo'", Button.class);
-    view2131689613 = view;
+    view2131689607 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -40,7 +40,7 @@ public class LoginPage_ViewBinding<T extends LoginPage> implements Unbinder {
     target.keepPassword = Utils.findRequiredViewAsType(source, R.id.keep_password, "field 'keepPassword'", CheckBox.class);
     view = Utils.findRequiredView(source, R.id.fab, "field 'fab' and method 'onClick'");
     target.fab = Utils.castView(view, R.id.fab, "field 'fab'", Button.class);
-    view2131689614 = view;
+    view2131689608 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -61,10 +61,10 @@ public class LoginPage_ViewBinding<T extends LoginPage> implements Unbinder {
     target.keepPassword = null;
     target.fab = null;
 
-    view2131689613.setOnClickListener(null);
-    view2131689613 = null;
-    view2131689614.setOnClickListener(null);
-    view2131689614 = null;
+    view2131689607.setOnClickListener(null);
+    view2131689607 = null;
+    view2131689608.setOnClickListener(null);
+    view2131689608 = null;
 
     this.target = null;
   }

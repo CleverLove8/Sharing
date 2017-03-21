@@ -15,7 +15,7 @@ import java.lang.Override;
 public class CirclePageFragment_ViewBinding<T extends CirclePageFragment> implements Unbinder {
   protected T target;
 
-  private View view2131689634;
+  private View view2131689628;
 
   @UiThread
   public CirclePageFragment_ViewBinding(final T target, View source) {
@@ -24,7 +24,7 @@ public class CirclePageFragment_ViewBinding<T extends CirclePageFragment> implem
     View view;
     view = Utils.findRequiredView(source, R.id.bookCircle, "field 'bookCircle' and method 'intoBookCircle'");
     target.bookCircle = Utils.castView(view, R.id.bookCircle, "field 'bookCircle'", ImageView.class);
-    view2131689634 = view;
+    view2131689628 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -43,8 +43,8 @@ public class CirclePageFragment_ViewBinding<T extends CirclePageFragment> implem
     target.bookCircle = null;
     target.mivieCircle = null;
 
-    view2131689634.setOnClickListener(null);
-    view2131689634 = null;
+    view2131689628.setOnClickListener(null);
+    view2131689628 = null;
 
     this.target = null;
   }

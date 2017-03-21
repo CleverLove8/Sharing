@@ -21,13 +21,13 @@ import java.lang.Override;
 public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements Unbinder {
   protected T target;
 
-  private View view2131689714;
+  private View view2131689739;
 
-  private View view2131689715;
+  private View view2131689740;
 
-  private View view2131689716;
+  private View view2131689741;
 
-  private View view2131689717;
+  private View view2131689742;
 
   @UiThread
   public MainPageFragment_ViewBinding(final T target, View source) {
@@ -36,7 +36,7 @@ public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements
     View view;
     view = Utils.findRequiredView(source, R.id.eletronic, "field 'eletronic' and method 'typeGet'");
     target.eletronic = Utils.castView(view, R.id.eletronic, "field 'eletronic'", LinearLayout.class);
-    view2131689714 = view;
+    view2131689739 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -45,7 +45,7 @@ public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements
     });
     view = Utils.findRequiredView(source, R.id.book, "field 'book' and method 'typeGet'");
     target.book = Utils.castView(view, R.id.book, "field 'book'", LinearLayout.class);
-    view2131689715 = view;
+    view2131689740 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -54,7 +54,7 @@ public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements
     });
     view = Utils.findRequiredView(source, R.id.dailyUse, "field 'dailyUse' and method 'typeGet'");
     target.dailyUse = Utils.castView(view, R.id.dailyUse, "field 'dailyUse'", LinearLayout.class);
-    view2131689716 = view;
+    view2131689741 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -63,7 +63,7 @@ public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements
     });
     view = Utils.findRequiredView(source, R.id.cloth, "field 'cloth' and method 'typeGet'");
     target.cloth = Utils.castView(view, R.id.cloth, "field 'cloth'", LinearLayout.class);
-    view2131689717 = view;
+    view2131689742 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -97,14 +97,14 @@ public class MainPageFragment_ViewBinding<T extends MainPageFragment> implements
     target.listView = null;
     target.searchView = null;
 
-    view2131689714.setOnClickListener(null);
-    view2131689714 = null;
-    view2131689715.setOnClickListener(null);
-    view2131689715 = null;
-    view2131689716.setOnClickListener(null);
-    view2131689716 = null;
-    view2131689717.setOnClickListener(null);
-    view2131689717 = null;
+    view2131689739.setOnClickListener(null);
+    view2131689739 = null;
+    view2131689740.setOnClickListener(null);
+    view2131689740 = null;
+    view2131689741.setOnClickListener(null);
+    view2131689741 = null;
+    view2131689742.setOnClickListener(null);
+    view2131689742 = null;
 
     this.target = null;
   }

@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "/Users/liWensheng/Desktop/MyApplication/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
+        "outputFile": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/incremental/mergeDebugResources/merged.dir/values-w360dp-v13/values-w360dp-v13.xml",
         "map": [
             {
                 "to": {
@@ -11,13 +11,13 @@
                     "endOffset": 105
                 },
                 "from": {
-                    "file": "/Users/liWensheng/.android/build-cache/aa4af1407fa857ec061b4e141d9894062cbcdebc/output/res/values-w360dp/values-w360dp.xml",
+                    "file": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/values-w360dp-v13/values-w360dp-v13.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 2,
                         "startColumn": 4,
-                        "startOffset": 290,
+                        "startOffset": 55,
                         "endColumn": 54,
-                        "endOffset": 340
+                        "endOffset": 105
                     }
                 }
             }

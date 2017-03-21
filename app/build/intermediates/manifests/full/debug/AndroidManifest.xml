@@ -63,6 +63,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
     <!-- 通知震动 -->
     <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
 
     <application
         android:name="com.example.liwensheng.sharing.application.App"
@@ -111,10 +112,6 @@
             android:name="com.example.liwensheng.sharing.ui.activity.TypeDetail"
             android:theme="@style/AppTheme"
             android:windowSoftInputMode="adjustPan" />
-        <activity
-            android:name="com.example.liwensheng.sharing.ui.activity.ChatActivity"
-            android:theme="@style/AppTheme"
-            android:windowSoftInputMode="adjustPan" />
 
         <receiver android:name="cn.bmob.newim.core.ConnectChangeReceiver" >
             <intent-filter>
@@ -139,6 +136,25 @@
             android:name="Bmob_APP_KEY"
             android:value="9b16d59e1c01fe0382d58c3b5630ab54" />
         <!-- bmobim end -->
+        <activity
+            android:name="cn.leancloud.chatkit.activity.LCIMConversationActivity"
+            android:launchMode="singleTask" >
+            <intent-filter>
+                <action android:name="cn.leancloud.chatkit.conversation_item_click_action" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity android:name="cn.leancloud.chatkit.activity.LCIMImageActivity" />
+
+        <receiver android:name="com.avos.avoscloud.AVBroadcastReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.BOOT_COMPLETED" />
+                <action android:name="android.intent.action.USER_PRESENT" />
+            </intent-filter>
+        </receiver>
+
+        <service android:name="com.avos.avoscloud.PushService" />
     </application>
 
 </manifest>

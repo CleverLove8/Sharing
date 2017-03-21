@@ -57,27 +57,6 @@ public class MainActivity extends AppCompatActivity {
 
         //连接服务器
         UserEntity user = BmobUser.getCurrentUser(UserEntity.class);
-        BmobIM.connect(user.getObjectId(), new ConnectListener() {
-            @Override
-            public void done(String s, BmobException e) {
-                if (e == null) {
-                    Toast.makeText(MainActivity.this, "连接成功", Toast.LENGTH_SHORT).show();
-                }
-                else {
-                    Toast.makeText(MainActivity.this, e.toString(), Toast.LENGTH_SHORT).show();
-                }
-            }
-        });
-
-//        BmobIM.getInstance().setOnConnectStatusChangeListener(new ConnectStatusChangeListener() {
-//            @Override
-//            public void onChange(ConnectionStatus connectionStatus) {
-//                Toast.makeText(MainActivity.this, connectionStatus.toString(), Toast.LENGTH_SHORT).show();
-//            }
-//        });
-
-        //解决leancanary提示InputMethodManager内存泄露的问题
-        IMMLeaks.fixFocusedViewLeak(getApplication());
 
         rlClick.setOnClickListener(new View.OnClickListener() {
             @Override

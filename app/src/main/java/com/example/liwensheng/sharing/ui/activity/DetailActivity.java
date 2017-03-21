@@ -36,6 +36,8 @@ import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.SaveListener;
 import cn.bmob.v3.listener.UpdateListener;
+import cn.leancloud.chatkit.activity.LCIMConversationActivity;
+import cn.leancloud.chatkit.utils.LCIMConstants;
 
 
 /**
@@ -107,22 +109,9 @@ public class DetailActivity extends AppCompatActivity {
      * */
     @OnClick(R.id.contact_button)
     public void ContactClick() {
-        Friend newFriend = new Friend();
-        newFriend.setUser(BmobUser.getCurrentUser(UserEntity.class));
-        newFriend.setFriendUser(detailThing.getAuthor());
-        newFriend.save(new SaveListener<String>() {
-            @Override
-            public void done(String s, BmobException e) {
-
-            }
-        });
-        UserEntity user = BmobUser.getCurrentUser(UserEntity.class);
-        BmobIMUserInfo info = new BmobIMUserInfo(user.getObjectId(), user.getUsername(), user.getUser_icon().getFileUrl());
-        BmobIMConversation c = BmobIM.getInstance().startPrivateConversation(info, null);
-        Bundle bundle = new Bundle();
-        bundle.putSerializable("c", c);
-        Intent intent = new Intent(DetailActivity.this, ChatActivity.class);
-        intent.putExtras(bundle);
+        String name = detailThing.getAuthor().getUser_name();
+        Intent intent = new Intent(DetailActivity.this, LCIMConversationActivity.class);
+        intent.putExtra(LCIMConstants.PEER_ID, name);
         startActivity(intent);
     }
     /**
