@@ -2,6 +2,11 @@ package com.example.liwensheng.sharing.ui.frame;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.support.design.widget.TabLayout;
+import android.support.v4.app.Fragment;
+import android.support.v4.app.FragmentManager;
+import android.support.v4.app.FragmentStatePagerAdapter;
+import android.support.v4.view.ViewPager;
 import android.support.v4.widget.SwipeRefreshLayout;
 import android.view.LayoutInflater;
 import android.view.View;
@@ -30,6 +35,7 @@ import com.example.liwensheng.sharing.view.RefreshLayout;
 
 import java.text.SimpleDateFormat;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Date;
 import java.util.List;
 
@@ -45,7 +51,7 @@ import cn.bmob.v3.listener.FindListener;
  * Created by liWensheng on 2017/2/28.
  */
 
-public class MainPageFragment extends BaseFragment implements SearchView.OnQueryTextListener , RadioGroup.OnCheckedChangeListener {
+public class MainPageFragment extends BaseFragment implements SearchView.OnQueryTextListener  {
 
     @BindView(R.id.eletronic)
     LinearLayout eletronic;
@@ -56,37 +62,14 @@ public class MainPageFragment extends BaseFragment implements SearchView.OnQuery
     @BindView(R.id.cloth)
     LinearLayout cloth;
 
-    @BindView(R.id.horizontalScrollView)
-    HorizontalScrollView horizontalScrollView;
-    @BindView(R.id.mainpage_group)
-    RadioGroup radioGroup;
-    @BindView(R.id.mainpage_qiujie)
-    RadioButton qiujie;
-    @BindView(R.id.mainpage_jiechu)
-    RadioButton jiechu;
-
-    @BindView(R.id.Refresh)
-    RefreshLayout mRefreshLayout;
-    @BindView(R.id.listview)
-    ListView listView;
-
     @BindView(R.id.searchView)
     SearchView searchView;
 
-    private ArrayList<RefreshLayout> refreshList;
-    private float mCurrentCheckedRadioLeft;//当前被选中的RadioButton距离左侧的距离
+    @BindView(R.id.tablayout)
+    TabLayout tabLayout;
+    @BindView(R.id.viewPager)
+    ViewPager viewPager;
 
-    private ThingApdapter mAdapter;
-    private boolean loading = false;
-    private int currentPage = 0; //当前页面
-    private List<ThingEntity> thingEntities = new ArrayList<>();
-
-    private static final int STATE_REFRESH = 0; // 下拉刷新
-    private static final int STATE_MORE = 1; // 加载更多
-    private int limit = 5; // 每页的数据是10条
-    private String lastTime;
-
-    private boolean selectFlag = true;
 
     @Override
     public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
@@ -94,28 +77,9 @@ public class MainPageFragment extends BaseFragment implements SearchView.OnQuery
         setHasOptionsMenu(true);
         View view = inflater.inflate(R.layout.mainpage_layout, null);
         ButterKnife.bind(this, view);
-        initRefreshLayout();
-        qiujie.setChecked(true);
-
-        mCurrentCheckedRadioLeft = getCurrentCheckedRadioLeft();
-        radioGroup.setOnCheckedChangeListener(this);
-        // ListView条目点击事件
-        listView.setOnItemClickListener(new AdapterView.OnItemClickListener() {
-            @Override
-            public void onItemClick(AdapterView<?> parent, View view, int position, long id) {
-                ThingEntity clickThing =  (ThingEntity)mAdapter.getItem(position);
-                String thingId = clickThing.getObjectId();
-                Intent intent = new Intent(getContext(), DetailActivity.class);
-//                intent.putExtra("id", thingId);
-                Bundle bundle = new Bundle();
-                bundle.putSerializable("thing", clickThing);
-                intent.putExtras(bundle);
-                startActivity(intent);
-            }
-        });
-
 
         initSearch();
+        initTabLayout();
 
         return view;
     }
@@ -123,7 +87,6 @@ public class MainPageFragment extends BaseFragment implements SearchView.OnQuery
     @Override
     public void onResume() {
         super.onResume();
-        initRefreshLayout();
     }
 
     /**
@@ -149,167 +112,6 @@ public class MainPageFragment extends BaseFragment implements SearchView.OnQuery
         }
         intent.putExtras(bundle);
         startActivity(intent);
-    }
-
-    @Override
-    public void onCheckedChanged(RadioGroup group, int checkedId) {
-        AnimationSet _AnimationSet = new AnimationSet(true);
-        TranslateAnimation _TranslateAnimation;
-
-        if (checkedId == R.id.mainpage_qiujie) {
-            _TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo1), 0f, 0f);
-            _AnimationSet.addAnimation(_TranslateAnimation);
-            _AnimationSet.setFillBefore(false);
-            _AnimationSet.setFillAfter(true);
-            _AnimationSet.setDuration(100);
-            selectFlag = true;
-            initRefreshLayout();
-        }
-        else {
-            _TranslateAnimation = new TranslateAnimation(mCurrentCheckedRadioLeft, getResources().getDimension(R.dimen.rdo1), 0f, 0f);
-            _AnimationSet.addAnimation(_TranslateAnimation);
-            _AnimationSet.setFillBefore(false);
-            _AnimationSet.setFillAfter(true);
-            _AnimationSet.setDuration(100);
-            selectFlag = false;
-            initRefreshLayout();
-        }
-
-        mCurrentCheckedRadioLeft = getCurrentCheckedRadioLeft();//更新当前蓝色横条距离左边的距离
-        horizontalScrollView.smoothScrollTo((int)mCurrentCheckedRadioLeft-(int)getResources().getDimension(R.dimen.rdo2), 0);
-    }
-
-    /**
-     * 获得当前被选中的RadioButton距离左侧的距离
-     */
-    private float getCurrentCheckedRadioLeft() {
-        // TODO Auto-generated method stub
-        if (qiujie.isChecked()) {
-            return getResources().getDimension(R.dimen.rdo1);
-        }else if (jiechu.isChecked()) {
-            return getResources().getDimension(R.dimen.rdo2);
-        }
-        return 0f;
-    }
-
-    /**
-     * 初始化RefreshLayout
-     * 刷新页面
-    * */
-    private void initRefreshLayout() {
-        // 设置进度动画的颜色
-        mRefreshLayout.setColorSchemeResources(android.R.color.holo_green_dark);
-        // 设置进度圈的大小,只有两个值:DEFAULT、LARGE
-        mRefreshLayout.setSize(SwipeRefreshLayout.DEFAULT);
-        // true:下拉过程会自动缩放,230:下拉刷新的高度
-        mRefreshLayout.setProgressViewEndTarget(true, 230);
-
-        // 进入页面就执行下拉动画
-        mRefreshLayout.post(new Runnable() {
-            @Override
-            public void run() {
-                getData(0, STATE_REFRESH);
-            }
-        });
-        // 下拉刷新操作
-        mRefreshLayout.setOnRefreshListener(new RefreshLayout.OnRefreshListener() {
-            @Override
-            public void onRefresh() {
-                getData(0, STATE_REFRESH);
-            }
-        });
-        // 上拉加载更多操作
-        mRefreshLayout.setOnLoadListener(new RefreshLayout.OnLoadListener() {
-            @Override
-            public void onLoad() {
-                if (!loading) {
-                    loading = true;
-                    getData(currentPage, STATE_MORE);
-                }
-            }
-        });
-
-        mAdapter = new ThingApdapter(getContext(), thingEntities);
-
-
-        if (mAdapter != null) {
-            listView.setAdapter(mAdapter);
-        }
-
-    }
-
-    /**
-     * 分页获取数据
-     * @param page 页码
-     * @param actionType istView的操作类型（下拉刷新、上拉加载更多）
-     */
-    public void getData(final int page, final int actionType) {
-        BmobQuery<ThingEntity> query = new BmobQuery<>();
-        query.order("-createdAt"); // 按时间降序查询
-        query.include("author"); // 希望在查询帖子信息的同时也把发布人的信息查询出来
-        if(actionType == STATE_MORE) { //加载更多
-            // 处理时间查询
-            Date date = null;
-            SimpleDateFormat sdf = new SimpleDateFormat("yyyy-MM-dd HH:mm:ss");
-            try {
-                date = sdf.parse(lastTime);
-            } catch (java.text.ParseException e) {
-                e.printStackTrace();
-            }
-            // 只查询小于等于最后一个item发表时间的数据
-            query.addWhereLessThanOrEqualTo("createdAt", new BmobDate(date));
-            // query.setSkip(page*limit+1); // 跳过之前页数并去掉重复数据
-        } else {
-            query.setSkip(0);
-        }
-        query.setLimit(limit);//设置每页数据个数
-        //查找数据
-        query.findObjects(new FindListener<ThingEntity>() {
-            @Override
-            public void done(List<ThingEntity> list, BmobException e) {
-                if (e==null) {
-                    if (list.size()>0) {
-                        if(actionType == STATE_REFRESH) {
-                            currentPage = 0;
-                            thingEntities.clear();
-                        }
-                        for (ThingEntity td : list) {
-                            if (td.getSend() == selectFlag) {
-                                thingEntities.add(td);
-                            }
-                        }
-                        currentPage++;
-                        mAdapter.notifyDataSetChanged();
-                        lastTime = thingEntities.get(thingEntities.size()-1).getCreatedAt(); // 获取最后时间
-                        if (actionType == STATE_MORE) {
-                            mRefreshLayout.setLoading(false); // 结束旋转ProgressBar
-                        }
-                    }
-                    else if (actionType == STATE_MORE) {
-                        Toast.makeText(getContext(),"没有更多了", Toast.LENGTH_LONG).show();
-                        mRefreshLayout.setLoading(false); // 结束旋转ProgressBar
-                    }
-                    else if (actionType == STATE_REFRESH) {
-                        Toast.makeText(getContext(),"没有数据", Toast.LENGTH_LONG).show();
-                    }
-                    loading = false;
-                    mRefreshLayout.setRefreshing(false); // 请求完成结束刷新状态
-                }
-
-                else {
-                    if (actionType == STATE_MORE) {
-                        mRefreshLayout.setLoading(false); // 结束旋转ProgressBar
-                    }
-                    Toast.makeText(getContext(),"请求异常，请稍后重试：" + e.toString(), Toast.LENGTH_LONG).show();
-                    loading = false;
-                    mRefreshLayout.setRefreshing(false);
-                }
-            }
-        });
-    }
-
-    public void clickListView() {
-
     }
 
     /**
@@ -339,17 +141,64 @@ public class MainPageFragment extends BaseFragment implements SearchView.OnQuery
         return true;
     }
 
-    @Override
-    public void onActivityResult(int requestCode, int resultCode, Intent data) {
-        switch (requestCode) {
-            // 登录
-            case ConstantUtils.RESULT_UPDATE_INFO:
-                if (UserEntity.getCurrentUser()!=null) {
-                    getData(0, STATE_REFRESH);
-                }
-                break;
+    private void initTabLayout() {
+        String[] tabList = {"借出", "求借"};
+        final Fragment[] fragmentList = {new JiechuFrame(),  new QiujieFrame()};
+
+        tabLayout.setTabMode(TabLayout.MODE_FIXED);
+        for (int i = 0; i < tabList.length; i++) {
+            tabLayout.addTab(tabLayout.newTab().setText(tabList[i]));
         }
-        super.onActivityResult(requestCode, resultCode, data);
+
+        TabFragmentAdapter adapter = new TabFragmentAdapter(getActivity().getSupportFragmentManager(),
+                Arrays.asList(fragmentList), Arrays.asList(tabList));
+
+
+        viewPager.setAdapter(adapter);
+        viewPager.addOnPageChangeListener(new ViewPager.OnPageChangeListener() {
+            @Override
+            public void onPageScrolled(int position, float positionOffset, int positionOffsetPixels) {
+            }
+
+            @Override
+            public void onPageSelected(int position) {
+                if (0 == position) {
+//          EventBus.getDefault().post(new ConversationFragmentUpdateEvent());
+                }
+            }
+
+            @Override
+            public void onPageScrollStateChanged(int state) {
+            }
+        });
+        tabLayout.setupWithViewPager(viewPager);
+        tabLayout.setTabsFromPagerAdapter(adapter);
     }
 
+    public class TabFragmentAdapter extends FragmentStatePagerAdapter {
+
+        private List<Fragment> mFragments;
+        private List<String> mTitles;
+
+        public TabFragmentAdapter(FragmentManager fm, List<Fragment> fragments, List<String> titles) {
+            super(fm);
+            mFragments = fragments;
+            mTitles = titles;
+        }
+
+        @Override
+        public Fragment getItem(int position) {
+            return mFragments.get(position);
+        }
+
+        @Override
+        public int getCount() {
+            return mFragments.size();
+        }
+
+        @Override
+        public CharSequence getPageTitle(int position) {
+            return mTitles.get(position);
+        }
+    }
 }

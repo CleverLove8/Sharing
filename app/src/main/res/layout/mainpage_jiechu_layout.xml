@@ -2,5 +2,13 @@
 <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
+    <com.example.liwensheng.sharing.view.RefreshLayout
+        android:id="@+id/Refresh"
+        style="@style/w_match_h_match">
+        <ListView
+            android:id="@+id/listview"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+    </com.example.liwensheng.sharing.view.RefreshLayout>
 
 </LinearLayout>

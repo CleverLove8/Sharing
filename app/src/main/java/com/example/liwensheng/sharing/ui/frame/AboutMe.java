@@ -183,7 +183,6 @@ public class AboutMe extends BaseFragment {
      * 设置头像跳转，图库或相机
      * */
     private void toPicture() {
-        photoDialog.dismiss();
         Intent intent = new Intent(Intent.ACTION_PICK, null);
         intent.setDataAndType(MediaStore.Images.Media.EXTERNAL_CONTENT_URI, "image/*");
         startActivityForResult(intent, IMAGE_REQUEST_CODE);
