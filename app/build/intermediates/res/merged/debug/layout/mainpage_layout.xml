@@ -138,64 +138,24 @@
         android:background="@color/gray_bg"
         />
 
-    <RelativeLayout
-        android:layout_width="match_parent"
+    <android.support.design.widget.TabLayout
+        android:id="@+id/tablayout"
+        android:layout_width="250dp"
         android:layout_height="wrap_content"
         android:layout_gravity="center"
-        android:gravity="center"
-        >
-        <HorizontalScrollView
-            android:id="@+id/horizontalScrollView"
-            android:layout_width="match_parent"
-            android:layout_height="50dp"
-            android:layout_marginTop="5dp"
-            android:scrollbars="none"
-            >
-            <RadioGroup
-                android:id="@+id/mainpage_group"
-                android:layout_width="wrap_content"
-                android:layout_height="35dp"
-                android:layout_marginTop="-10dp"
-                android:background="#00000000"
-                android:layout_gravity="center"
-                android:gravity="center"
-                android:orientation="horizontal"
-                android:layout_alignParentTop="true"
-                >
-                <RadioButton
-                    android:id="@+id/mainpage_qiujie"
-                    style="@style/select_nav_type"
-                    android:text="求借"
-                    android:textSize="20dp"
-                    />
-                <RadioButton
-                    android:id="@+id/mainpage_jiechu"
-                    style="@style/select_nav_type"
-                    android:layout_marginLeft="150dp"
-                    android:text="借出"
-                    android:textSize="20dp"
-                    />
-
-            </RadioGroup>
-
-        </HorizontalScrollView>
-    </RelativeLayout>
-
-
-    <View
-        android:layout_width="match_parent"
-        android:layout_height="1dp"
-        android:layout_marginTop="1dp"
-        android:background="@color/gray_bg"
+        app:tabIndicatorColor="@color/bottom_btn_selected"
+        app:tabSelectedTextColor="@color/gray_bg"
+        app:tabPaddingStart="2dp"
+        app:tabPaddingEnd="2dp"
+        app:tabMinWidth="20dp"
+        app:tabIndicatorHeight="3dp"
         />
 
-    <com.example.liwensheng.sharing.view.RefreshLayout
-        android:id="@+id/Refresh"
-        style="@style/w_match_h_match">
-        <ListView
-            android:id="@+id/listview"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"/>
-    </com.example.liwensheng.sharing.view.RefreshLayout>
+    <android.support.v4.view.ViewPager
+        android:id="@+id/viewPager"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        />
 
 </LinearLayout>
