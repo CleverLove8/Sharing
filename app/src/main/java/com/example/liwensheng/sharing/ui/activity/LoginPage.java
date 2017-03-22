@@ -46,8 +46,8 @@ public class LoginPage extends AppCompatActivity {
     //登录按钮
     @BindView(R.id.bt_go)
     Button btGo;
-    @BindView(R.id.keep_password)
-    CheckBox keepPassword;
+//    @BindView(R.id.keep_password)
+//    CheckBox keepPassword;
 
     //注册按钮
     @BindView(R.id.fab)
@@ -67,21 +67,24 @@ public class LoginPage extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         // 保存状态
-        SPUtils.putBoolean(this, "keeppass", keepPassword.isChecked());
+        SPUtils.putBoolean(this, "keeppass", true);
         // 是否记住密码
-        if (keepPassword.isChecked()) {
-            // 记住用户名和密码
-            SPUtils.putString(this, "phone", etUsername.getText().toString().trim());
-            SPUtils.putString(this, "password", etPassword.getText().toString().trim());
-        } else {
-            SPUtils.remove(this, "phone");
-            SPUtils.remove(this, "password");
-        }
+//        if (keepPassword.isChecked()) {
+//            // 记住用户名和密码
+//            SPUtils.putString(this, "phone", etUsername.getText().toString().trim());
+//            SPUtils.putString(this, "password", etPassword.getText().toString().trim());
+//        } else {
+//            SPUtils.remove(this, "phone");
+//            SPUtils.remove(this, "password");
+//        }
+        //默认记住密码
+        SPUtils.putString(this, "phone", etUsername.getText().toString().trim());
+        SPUtils.putString(this, "password", etPassword.getText().toString().trim());
     }
 
     private void initView() {
         boolean isKeep = SPUtils.getBoolean(this, "keeppass", false);
-        keepPassword.setChecked(isKeep);
+//        keepPassword.setChecked(isKeep);
         dialog = new CustomDialog(this, 100, 100, R.layout.dialog_loading, R.style.Theme_dialog, Gravity.CENTER, R.style.pop_anim_style);
         dialog.setCancelable(false);
         if (isKeep) {
