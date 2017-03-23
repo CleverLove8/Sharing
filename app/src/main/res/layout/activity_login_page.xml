@@ -29,17 +29,18 @@
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:layout_marginTop="30dp"
+        android:inputType="textPassword"
         android:hint="密码"
         />
     <Button
         android:id="@+id/bt_go"
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_height="35dp"
         android:layout_marginTop="15dp"
         android:background="@color/bottom_btn_selected"
         android:text="登录"
         android:textColor="@color/white"
-        android:textSize="20dp"
+        android:textSize="15dp"
         android:layout_gravity="center"
         />
 
@@ -66,22 +67,22 @@
                 <!--android:text="记住密码"-->
                 <!--/>-->
         <!--</LinearLayout>-->
-        <Button
+        <TextView
             android:id="@+id/forget"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentLeft="true"
             android:text="忘记密码？"
-            android:textColor="@color/gray_bg"
+            android:textColor="@color/material_blue"
             android:background="@color/white"
             />
-        <Button
+        <TextView
             android:id="@+id/fab"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_alignParentRight="true"
-            android:text="注册账号 >"
-            android:textColor="@color/gray_bg"
+            android:text="注册账号"
+            android:textColor="@color/material_blue"
             android:background="@color/white"
             />
     </RelativeLayout>
