@@ -72,12 +72,12 @@
         "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_record_icon_voice4.png"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/lcim_chat_icon_voice2.png",
-        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_chat_icon_voice2.png"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png",
         "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable-xhdpi-v4/abc_textfield_search_default_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/lcim_chat_icon_voice2.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_chat_icon_voice2.png"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_ic_star_half_black_16dp.png",
@@ -100,12 +100,12 @@
         "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_record_icon_voice3.png"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/lcim_chat_top_voice_bg.9.png",
-        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_chat_top_voice_bg.9.png"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/abc_list_focused_holo.9.png",
         "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable-xhdpi-v4/abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/lcim_chat_top_voice_bg.9.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable-xhdpi/lcim_chat_top_voice_bg.9.png"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-xhdpi-v4/lcim_chat_voice_left2.png",

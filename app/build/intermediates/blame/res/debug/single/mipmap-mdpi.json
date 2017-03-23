@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-mdpi/home2.png",
-        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-mdpi/home2.png"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-mdpi/chat_send_p.png",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-mdpi/chat_send_p.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-mdpi/home2.png",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/mipmap-mdpi/home2.png"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/mipmap-mdpi/chat_keyboard_press.png",

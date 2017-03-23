@@ -17,7 +17,7 @@ import java.lang.Override;
 public class MesGood_ViewBinding<T extends MesGood> implements Unbinder {
   protected T target;
 
-  private View view2131689753;
+  private View view2131689751;
 
   @UiThread
   public MesGood_ViewBinding(final T target, View source) {
@@ -26,7 +26,7 @@ public class MesGood_ViewBinding<T extends MesGood> implements Unbinder {
     View view;
     view = Utils.findRequiredView(source, R.id.good_back_btn, "field 'back_btn' and method 'goBack'");
     target.back_btn = Utils.castView(view, R.id.good_back_btn, "field 'back_btn'", LinearLayout.class);
-    view2131689753 = view;
+    view2131689751 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -47,8 +47,8 @@ public class MesGood_ViewBinding<T extends MesGood> implements Unbinder {
     target.mRefreshLayout = null;
     target.listView = null;
 
-    view2131689753.setOnClickListener(null);
-    view2131689753 = null;
+    view2131689751.setOnClickListener(null);
+    view2131689751 = null;
 
     this.target = null;
   }

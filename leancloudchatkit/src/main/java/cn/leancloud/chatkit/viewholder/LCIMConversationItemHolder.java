@@ -40,6 +40,7 @@ import cn.leancloud.chatkit.utils.LCIMConstants;
 import cn.leancloud.chatkit.utils.LCIMConversationUtils;
 import cn.leancloud.chatkit.utils.LCIMLogUtils;
 import de.greenrobot.event.EventBus;
+import de.hdodenhof.circleimageview.CircleImageView;
 
 /**
  * Created by wli on 15/10/8.
@@ -47,7 +48,7 @@ import de.greenrobot.event.EventBus;
  */
 public class LCIMConversationItemHolder extends LCIMCommonViewHolder {
 
-  ImageView avatarView;
+  CircleImageView avatarView;
   TextView unreadView;
   TextView messageView;
   TextView timeView;
@@ -61,7 +62,7 @@ public class LCIMConversationItemHolder extends LCIMCommonViewHolder {
   }
 
   public void initView() {
-    avatarView = (ImageView) itemView.findViewById(R.id.conversation_item_iv_avatar);
+    avatarView = (CircleImageView) itemView.findViewById(R.id.conversation_item_iv_avatar);
     nameView = (TextView) itemView.findViewById(R.id.conversation_item_tv_name);
     timeView = (TextView) itemView.findViewById(R.id.conversation_item_tv_time);
     unreadView = (TextView) itemView.findViewById(R.id.conversation_item_tv_unread);

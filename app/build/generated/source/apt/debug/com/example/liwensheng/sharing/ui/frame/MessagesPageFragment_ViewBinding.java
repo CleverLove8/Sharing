@@ -16,9 +16,9 @@ import java.lang.Override;
 public class MessagesPageFragment_ViewBinding<T extends MessagesPageFragment> implements Unbinder {
   protected T target;
 
-  private View view2131689769;
+  private View view2131689767;
 
-  private View view2131689771;
+  private View view2131689769;
 
   @UiThread
   public MessagesPageFragment_ViewBinding(final T target, View source) {
@@ -27,7 +27,7 @@ public class MessagesPageFragment_ViewBinding<T extends MessagesPageFragment> im
     View view;
     view = Utils.findRequiredView(source, R.id.mes_dianzan, "field 'dianzan' and method 'cheskMes'");
     target.dianzan = Utils.castView(view, R.id.mes_dianzan, "field 'dianzan'", LinearLayout.class);
-    view2131689769 = view;
+    view2131689767 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -36,7 +36,7 @@ public class MessagesPageFragment_ViewBinding<T extends MessagesPageFragment> im
     });
     view = Utils.findRequiredView(source, R.id.mes_pinglun, "field 'pinglun' and method 'cheskMes'");
     target.pinglun = Utils.castView(view, R.id.mes_pinglun, "field 'pinglun'", LinearLayout.class);
-    view2131689771 = view;
+    view2131689769 = view;
     view.setOnClickListener(new DebouncingOnClickListener() {
       @Override
       public void doClick(View p0) {
@@ -58,10 +58,10 @@ public class MessagesPageFragment_ViewBinding<T extends MessagesPageFragment> im
     target.num_dianzan = null;
     target.num_pinglun = null;
 
+    view2131689767.setOnClickListener(null);
+    view2131689767 = null;
     view2131689769.setOnClickListener(null);
     view2131689769 = null;
-    view2131689771.setOnClickListener(null);
-    view2131689771 = null;
 
     this.target = null;
   }

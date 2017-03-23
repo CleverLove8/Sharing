@@ -2,13 +2,121 @@
 <items version="2" >
 
     <item
-        is-multidex="true"
-        jar="/Users/liWensheng/Desktop/Sharing/app/libs/universal-image-loader-1.9.5.jar"
-        jumboMode="true"
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/5ccb0a53d0707f5ae1b26c4de313741a7e631df2/output/jars/classes.jar"
+        jumboMode="false"
         optimize="true"
         revision="25.0.2"
-        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
-        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_af361a974a36f88dac230fc5ce3ba3f893c00163/classes.dex" />
+        sha1="cb454b52545859ed2f24a6c01366805b0fa04b22">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_3a2aa88300887c622cdae76a67dfd404e4ad659b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/okio/1.6.0-leancloud/7086c00a30a6de0ee3b963ec2c3702d37f1de11d/okio-1.6.0-leancloud.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7086c00a30a6de0ee3b963ec2c3702d37f1de11d">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/okio-1.6.0-leancloud_de94b4405cb9d648f287b0cd64ebe3442196c844.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/avoscloud-sdk/v3.16.1/44e096c8dda87e143c7820d1c5096e61baabbd3d/avoscloud-sdk-v3.16.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="44e096c8dda87e143c7820d1c5096e61baabbd3d">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/avoscloud-sdk-v3.16.1_efbf466c5be7000757f356a1a1873268d7bb0f86.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/fastjson/1.1.39-leancloud/94d4ebd4acdaf01d7445435382eea2d2d38e7534/fastjson-1.1.39-leancloud.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="94d4ebd4acdaf01d7445435382eea2d2d38e7534">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/fastjson-1.1.39-leancloud_870e83fdb820d6c9104a8a8f62c0decc28f44598.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/okhttp/2.6.0-leancloud/7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930/okhttp-2.6.0-leancloud.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7d1a8dbbc128e91cf41ab6eafaa741ab2a6ff930">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/okhttp-2.6.0-leancloud_d225bcb72703cb5b5c2ca76842a75186a2b0be8a.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/2f5b08ef1af8e4747f574f145d6f9aa7cb42ff6b/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d7c42c80f6509b9ea4db28ca7859ffae08ec5741">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_01f923fcacb82ddc99579c4d1bcc2946532ea8a5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/com.google.protobuf/protobuf-java/2.6.1/d9521f2aecb909835746b7a5facf612af5e890e8/protobuf-java-2.6.1.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="d9521f2aecb909835746b7a5facf612af5e890e8">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/protobuf-java-2.6.1_c250918d8cc162579695fb0de4dba1c93537f00b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/com.squareup.picasso/picasso/2.5.2/7446d06ec8d4f7ffcc53f1da37c95f200dcb9387/picasso-2.5.2.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="7446d06ec8d4f7ffcc53f1da37c95f200dcb9387">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/picasso-2.5.2_f60b5b4197e4cea0450668bb4d01c82ba38085df.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/0aa77879e00b0b687db5c79264752eafc05d1cab/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="109f0ec452925b46b500e8d28ee2cd2d1a0145a9">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_a268ec3af3956637d77aca4e8bd17b4ae70c5350.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/1077fbf8e3099a20b3d50d96aec299592efd7a54/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="30a4938ea5235ccf532b3e9f04200e68547e36ad">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_6364ccb6ea04742dfdac19439ddc53fa356c74e7.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/56d30556c8661f1d50cb3fc4be86d46a3f0aa4d9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="8fe8a8f77d651982ce5e18f6187dc4daf914ac57">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_d944fd2b51ad18a3e349c9793d8e9ef9bf7d41d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/81653e6375867e6b829e858a6259359e4dc1222f/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5da66bc7b452f03c62834fe9cfa0d309da40fb94">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_2a4d6cc6709b478d47e2a649542a2b962f1c64b2.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/9fc6d646be75dbe0f6aa2e6577e164275a049bc9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="702d339bc0a81d21354cd7e2cf2b67225fa4a16c">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_0e46ff5b78bbf1549240dbaff9fa5bdc334042ca.jar" />
     </item>
     <item
         is-multidex="true"
@@ -20,6 +128,159 @@
         <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run-bootstrap_71c2f4414ed359a67de2f10854e25e83ddbed36f/classes.dex" />
     </item>
     <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/jars/libs/BmobNewIM_2.0.5_20160601.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b535a2906149ccebadc4b1cab0126130916842ea">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/BmobNewIM_2.0.5_20160601_05abae4406a573007ef9fb2a1d744ce2e4ae8da6.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/de.greenrobot/eventbus/2.4.0/ddd166d01b3158d1c00576d29f7ed15c030df719/eventbus-2.4.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd166d01b3158d1c00576d29f7ed15c030df719">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/eventbus-2.4.0_cac18746efdf49798cf1a45c7553e03f1304fbb5.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/cn.leancloud.android/Java-WebSocket/1.3.2-leancloud/169fd461930335df8099bcbac99c0f206912ced1/Java-WebSocket-1.3.2-leancloud.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="169fd461930335df8099bcbac99c0f206912ced1">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/Java-WebSocket-1.3.2-leancloud_65585d9b54e4ab95612aaf40c9edf175cf8a7d4f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/jars/libs/androidasync-2.1.6.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4c88f1359a331cff1ea593267d1f63dca63b364b">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/androidasync-2.1.6_609b0391fb7e07ba246cd192f5c4c6f81811ced4.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/9af26216cec5d4a4e3c4d9e1be59c578a2160a60/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="152de8da301561dcb0946471697a420d8f7a68c5">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_97f6197e33e27c9470be69294350e07a8d4208d8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/a671d2134ccf3a2bb539941e2e0015a9ad622242/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e51c2f662bb72419632af5192553c37e33890a99">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_53d043c8590daaa0cbdb75d5397ef63d49bffbf8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/e9d79ed979f34abb7d45bf6d256590e6f6381727/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="67eb33110dbacb46a48175b08ae0c96761d2c17d">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_33049b2c4cbfd3ad03f160f7037e47b23961646f.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.gradle/caches/modules-2/files-2.1/org.greenrobot/eventbus/3.0.0/ddd99896e9569eaababbe81b35d80e1b91c4ad85/eventbus-3.0.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ddd99896e9569eaababbe81b35d80e1b91c4ad85">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/eventbus-3.0.0_e2a0d1260c0d0f63d77bb20f4a64441c9dcb8b59.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ea6a989b83d19b1b461281e0475a6cd6514897f8">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_cb11ea091e9893675913f269134bc6161800bcad.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="46b64293efb94feb03e6270d400f95b2664513f6">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_6fa5ec9f09a093a2308efdeb76e0f90df1459d33.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/bundles/default/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f4b9e44511166e9c87e2e3860e2ddb66b1ec5159">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_bc12fb39a99ffa66efbec8e01588187137f357f8.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/Desktop/Sharing/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/universal-image-loader-1.9.5_af361a974a36f88dac230fc5ce3ba3f893c00163.jar" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="/Users/liWensheng/Desktop/Sharing/app/libs/universal-image-loader-1.9.5.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="442dbfb517b9ab5cb5c6da7ebf8cc28ec5bd0375">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/2/universal-image-loader-1.9.5_af361a974a36f88dac230fc5ce3ba3f893c00163/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/671cabb1709d55f5a5ffdb944d4cb051a17937d4/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="e820b7be8c035dd522da4bc822e8a76c8e27921a">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_6fa97a599e55532fb827faf129ef494e697ab40d.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/c4064000a6906742afb02030e6820f4dc19a78c9/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fa0446a14ed5dd3725047d6399ffea771a564b30">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_81177028a119a21c3f1bd01378001dd440a7345b.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/Library/Android/sdk/extras/android/m2repository/com/android/support/support-annotations/25.2.0/support-annotations-25.2.0.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4a5a82a027706397fff621b22fd6fa796e91d7c5">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/support-annotations-25.2.0_d4652724a5bc0d170f7b274d31018bc55177bc32.jar" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/c8d291647df13f5fdfa72d32a349c31e2f6209bd/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="ee394a892dd21c03a528139c1e8d4e0e1264ac84">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_7e849d0aa0fa5cf0461e6d71e3852cdeebcf317d.jar" />
+    </item>
+    <item
         is-multidex="true"
         jar="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/incremental-runtime-classes/debug/instant-run.jar"
         jumboMode="true"
@@ -27,6 +288,15 @@
         revision="25.0.2"
         sha1="c82741bc129dd5f99f11a4ab8666ae24262053b6">
         <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/10000/instant-run_1e835f42064485b77ac2ca55bf74c5de0bf5a130/classes.dex" />
+    </item>
+    <item
+        is-multidex="false"
+        jar="/Users/liWensheng/.android/build-cache/a0cff98ec164346a9e6e4aa44ef75e3a8d1087b3/output/jars/classes.jar"
+        jumboMode="false"
+        optimize="true"
+        revision="25.0.2"
+        sha1="810f41e5b7fd99f196ebeabe865ba2c54e7e76dc">
+        <dex dex="/Users/liWensheng/Desktop/Sharing/app/build/intermediates/pre-dexed/debug/classes_8746ac250b89ab76aeae4dccd63e6944ab613322.jar" />
     </item>
 
 </items>

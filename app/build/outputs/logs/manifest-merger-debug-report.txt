@@ -108,7 +108,6 @@ application
 ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:61:5-139:19
 MERGED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:transition:25.2.0] /Users/liWensheng/.android/build-cache/a671d2134ccf3a2bb539941e2e0015a9ad622242/output/AndroidManifest.xml:22:5-20
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:9:5-20
 MERGED from [com.android.support:cardview-v7:25.2.0] /Users/liWensheng/.android/build-cache/1077fbf8e3099a20b3d50d96aec299592efd7a54/output/AndroidManifest.xml:22:5-20
 MERGED from [cn.bmob.android:bmob-im:2.0.5] /Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/AndroidManifest.xml:11:5-15:19
 MERGED from [cn.bmob.android:bmob-sdk:3.5.0] /Users/liWensheng/.android/build-cache/a0034259000837555d010fd48d00f95d2b605617/output/AndroidManifest.xml:11:5-14:19
@@ -123,6 +122,7 @@ MERGED from [com.android.support:support-media-compat:25.2.0] /Users/liWensheng/
 MERGED from [com.android.support:support-core-utils:25.2.0] /Users/liWensheng/.android/build-cache/671cabb1709d55f5a5ffdb944d4cb051a17937d4/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-core-ui:25.2.0] /Users/liWensheng/.android/build-cache/c4064000a6906742afb02030e6820f4dc19a78c9/output/AndroidManifest.xml:25:5-20
 MERGED from [com.android.support:support-compat:25.2.0] /Users/liWensheng/.android/build-cache/e9d79ed979f34abb7d45bf6d256590e6f6381727/output/AndroidManifest.xml:25:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:9:5-20
 	android:label
 		ADDED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml:64:9-41
 	android:supportsRtl
@@ -278,7 +278,6 @@ INJECTED from /Users/liWensheng/Desktop/Sharing/app/src/main/AndroidManifest.xml
 MERGED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:21:5-23:62
 MERGED from [com.android.support:transition:25.2.0] /Users/liWensheng/.android/build-cache/a671d2134ccf3a2bb539941e2e0015a9ad622242/output/AndroidManifest.xml:20:5-44
 MERGED from [com.jakewharton:butterknife:8.4.0] /Users/liWensheng/.android/build-cache/497924961fdc743ce85225632ac931a3dd4eb71e/output/AndroidManifest.xml:5:5-43
-MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:5:5-7:41
 MERGED from [com.android.support:cardview-v7:25.2.0] /Users/liWensheng/.android/build-cache/1077fbf8e3099a20b3d50d96aec299592efd7a54/output/AndroidManifest.xml:20:5-43
 MERGED from [com.cjj.materialrefeshlayout:library:1.3.0] /Users/liWensheng/.android/build-cache/c9fca0cbbc308b6f1d97578ae3e550fdc85bd254/output/AndroidManifest.xml:7:5-9:41
 MERGED from [cn.bmob.android:bmob-im:2.0.5] /Users/liWensheng/.android/build-cache/6244e02e2fd7ab7c259980de8630c43d132796e6/output/AndroidManifest.xml:7:5-9:41
@@ -296,6 +295,7 @@ MERGED from [com.android.support:support-core-utils:25.2.0] /Users/liWensheng/.a
 MERGED from [com.android.support:recyclerview-v7:25.2.0] /Users/liWensheng/.android/build-cache/9af26216cec5d4a4e3c4d9e1be59c578a2160a60/output/AndroidManifest.xml:20:5-43
 MERGED from [com.android.support:support-core-ui:25.2.0] /Users/liWensheng/.android/build-cache/c4064000a6906742afb02030e6820f4dc19a78c9/output/AndroidManifest.xml:21:5-23:58
 MERGED from [com.android.support:support-compat:25.2.0] /Users/liWensheng/.android/build-cache/e9d79ed979f34abb7d45bf6d256590e6f6381727/output/AndroidManifest.xml:21:5-23:58
+MERGED from [de.hdodenhof:circleimageview:2.1.0] /Users/liWensheng/.android/build-cache/c86771687d8d68dbcb2a3bf314a9d2e1c62fe2b9/output/AndroidManifest.xml:5:5-7:41
 	tools:overrideLibrary
 		ADDED from [com.android.support:design:25.2.0] /Users/liWensheng/.android/build-cache/471b90f8c30edc1e78ce9dfe45ed5f5c6585a344/output/AndroidManifest.xml:23:9-59
 	android:targetSdkVersion

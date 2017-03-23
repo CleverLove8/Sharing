@@ -1,11 +1,11 @@
 [
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
-        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png",
         "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable-hdpi-v4/abc_textfield_activated_mtrl_alpha.9.png"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png",
+        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable-hdpi-v4/abc_scrubber_primary_mtrl_alpha.9.png"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/debug/drawable-hdpi-v4/abc_menu_hardkey_panel_mtrl_mult.9.png",

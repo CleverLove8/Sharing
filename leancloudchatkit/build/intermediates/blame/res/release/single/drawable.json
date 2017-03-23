@@ -64,12 +64,12 @@
         "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
-        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_btn_default_mtrl_shape.xml"
-    },
-    {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/lcim_chat_anim_voice_left.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable/lcim_chat_anim_voice_left.xml"
+    },
+    {
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_btn_default_mtrl_shape.xml",
+        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_btn_default_mtrl_shape.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_btn_checkbox_checked_mtrl.xml",
@@ -88,16 +88,16 @@
         "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_textfield_search_material.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_btn_radio_off_mtrl.xml",
-        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_btn_radio_off_mtrl.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/lcim_chat_resend_bg.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable/lcim_chat_resend_bg.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/lcim_bottom_bar_location_button_bg.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable/lcim_bottom_bar_location_button_bg.xml"
     },
     {
-        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/lcim_chat_resend_bg.xml",
-        "source": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/src/main/res/drawable/lcim_chat_resend_bg.xml"
+        "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_btn_radio_off_mtrl.xml",
+        "source": "/Users/liWensheng/.android/build-cache/52171aaa83abe9d8aee4088a419bf587dd62a551/output/res/drawable/abc_btn_radio_off_mtrl.xml"
     },
     {
         "merged": "/Users/liWensheng/Desktop/Sharing/leancloudchatkit/build/intermediates/res/merged/release/drawable/abc_text_cursor_material.xml",

@@ -30,7 +30,7 @@ import cn.bmob.v3.exception.BmobException;
 import cn.bmob.v3.listener.SaveListener;
 
 /**
- * Created by zhangliangjun on 2017/3/4.
+ * Created by liwensheng on 2017/3/4.
  */
 public class RegisterActivity extends AppCompatActivity {
 

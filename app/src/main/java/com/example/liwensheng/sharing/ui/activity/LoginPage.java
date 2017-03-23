@@ -35,7 +35,7 @@ import cn.bmob.v3.listener.LogInListener;
 import cn.leancloud.chatkit.LCChatKit;
 
 /**
- * Created by zhangliangjun on 2017/3/4.
+ * Created by liwensheng on 2017/3/4.
  */
 public class LoginPage extends AppCompatActivity {
 
