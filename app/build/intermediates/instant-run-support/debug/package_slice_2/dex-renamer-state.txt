@@ -1,4 +1,4 @@
-#Wed Mar 22 17:34:54 CST 2017
+#Fri Mar 24 19:29:20 CST 2017
 base.0=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2
 renamed.0=classes.dex
 file.0=/Users/liWensheng/Desktop/Sharing/app/build/intermediates/transforms/dex/debug/folders/1000/5/slice_2/classes.dex

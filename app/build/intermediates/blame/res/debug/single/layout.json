@@ -276,6 +276,10 @@
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/dialog_loading.xml"
     },
     {
+        "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/activity_register.xml",
+        "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/activity_register.xml"
+    },
+    {
         "merged": "/Users/liWensheng/Desktop/Sharing/app/build/intermediates/res/merged/debug/layout/messagepage_layout.xml",
         "source": "/Users/liWensheng/Desktop/Sharing/app/src/main/res/layout/messagepage_layout.xml"
     },

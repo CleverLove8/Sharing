@@ -38,8 +38,6 @@ public class AboutMe_ViewBinding<T extends AboutMe> implements Unbinder {
     target.User_qq = Utils.findRequiredViewAsType(source, R.id.user_qq, "field 'User_qq'", TextView.class);
     target.User_credit = Utils.findRequiredViewAsType(source, R.id.user_credit, "field 'User_credit'", TextView.class);
     target.User_history = Utils.findRequiredViewAsType(source, R.id.user_history, "field 'User_history'", LinearLayout.class);
-    target.User_history_get = Utils.findRequiredViewAsType(source, R.id.user_history_get, "field 'User_history_get'", TextView.class);
-    target.User_history_send = Utils.findRequiredViewAsType(source, R.id.user_history_send, "field 'User_history_send'", TextView.class);
     target.User_collect = Utils.findRequiredViewAsType(source, R.id.user_collect, "field 'User_collect'", LinearLayout.class);
     target.User_location = Utils.findRequiredViewAsType(source, R.id.user_location, "field 'User_location'", LinearLayout.class);
     target.User_circle = Utils.findRequiredViewAsType(source, R.id.user_circle, "field 'User_circle'", LinearLayout.class);
@@ -59,8 +57,6 @@ public class AboutMe_ViewBinding<T extends AboutMe> implements Unbinder {
     target.User_qq = null;
     target.User_credit = null;
     target.User_history = null;
-    target.User_history_get = null;
-    target.User_history_send = null;
     target.User_collect = null;
     target.User_location = null;
     target.User_circle = null;

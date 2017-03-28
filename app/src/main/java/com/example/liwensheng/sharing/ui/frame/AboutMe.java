@@ -70,10 +70,6 @@ public class AboutMe extends BaseFragment {
     TextView User_credit;
     @BindView(R.id.user_history)
     LinearLayout User_history;
-    @BindView(R.id.user_history_get)
-    TextView User_history_get;
-    @BindView(R.id.user_history_send)
-    TextView User_history_send;
     @BindView(R.id.user_collect)
     LinearLayout User_collect;
     @BindView(R.id.user_location)
