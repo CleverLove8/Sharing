@@ -35,6 +35,7 @@ import com.example.liwensheng.sharing.R;
 import com.example.liwensheng.sharing.base.BaseFragment;
 import com.example.liwensheng.sharing.entity.GoodEntity;
 import com.example.liwensheng.sharing.entity.UserEntity;
+import com.example.liwensheng.sharing.ui.activity.FedBack;
 import com.example.liwensheng.sharing.ui.activity.HistoryActivity;
 import com.example.liwensheng.sharing.utils.ConstantUtils;
 import com.example.liwensheng.sharing.utils.SPUtils;
@@ -334,5 +335,11 @@ public class AboutMe extends BaseFragment {
             }
         });
 
+        User_yijian.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                startActivity(new Intent(getContext(), FedBack.class));
+            }
+        });
     }
 }
