@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    >
+
+    <include layout="@layout/menu_fedback"/>
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_marginTop="2dp"
+            style="@style/w_match_h_wrap"
+            android:orientation="vertical"
+            android:background="@color/white"
+            android:paddingBottom="10dp"
+            >
+
+            <EditText
+                android:id="@+id/comment_content"
+                android:layout_width="match_parent"
+                android:layout_height="100dp"
+                android:background="@color/color_white"
+                android:padding="10dp"
+                android:gravity="left|top"
+                android:hint="亲，遇到什么问题，或者有什么建议么？欢迎提给我们，谢谢！"
+                android:inputType="textMultiLine"
+                android:maxLength="64"
+                android:textColor="@color/clr_sub_text"
+                android:textColorHint="@color/clr_sub_text"
+                android:textSize="10sp"/>
+
+            <TextView
+                android:id="@+id/comment_tip"
+                style="@style/w_match_h_wrap"
+                android:background="@color/color_white"
+                android:layout_marginRight="10sp"
+                android:gravity="right"
+                android:text="0/64"/>
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:gravity="center_horizontal|center_vertical"
+                android:layout_marginTop="5dp"
+                >
+                <Button
+                    android:id="@+id/btn1"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="反馈bug"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gray"
+                    />
+                <Button
+                    android:id="@+id/btn2"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="功能建议"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gray"
+                    />
+                <Button
+                    android:id="@+id/btn3"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:text="举报投诉"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gray"
+                    />
+                <Button
+                    android:id="@+id/btn4"
+                    android:layout_width="0dp"
+                    android:layout_height="35dp"
+                    android:layout_weight="1"
+                    android:layout_marginLeft="10dp"
+                    android:layout_marginRight="10dp"
+                    android:text="其他"
+                    android:textColor="@color/white"
+                    android:background="@drawable/btn_gray"
+                    />
+            </LinearLayout>
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:layout_alignParentBottom="true"
+            android:background="@color/white"
+            android:gravity="center_horizontal|center_vertical"
+            >
+            <Button
+                android:id="@+id/confirm"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@color/bottom_btn_selected"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:text="确认提交"
+                />
+        </LinearLayout>
+    </RelativeLayout>
+
+
+
+</LinearLayout>
