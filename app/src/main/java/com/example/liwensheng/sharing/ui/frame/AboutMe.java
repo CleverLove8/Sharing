@@ -10,6 +10,8 @@ import android.net.Uri;
 import android.os.Build;
 import android.os.Bundle;
 import android.os.Environment;
+import android.os.Handler;
+import android.os.Message;
 import android.provider.MediaStore;
 import android.support.annotation.Nullable;
 import android.support.v4.app.ActivityCompat;
@@ -31,6 +33,7 @@ import android.widget.Toast;
 import com.bumptech.glide.Glide;
 import com.example.liwensheng.sharing.R;
 import com.example.liwensheng.sharing.base.BaseFragment;
+import com.example.liwensheng.sharing.entity.GoodEntity;
 import com.example.liwensheng.sharing.entity.UserEntity;
 import com.example.liwensheng.sharing.ui.activity.HistoryActivity;
 import com.example.liwensheng.sharing.utils.ConstantUtils;
@@ -41,13 +44,16 @@ import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.IOException;
+import java.util.List;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 import butterknife.OnClick;
+import cn.bmob.v3.BmobQuery;
 import cn.bmob.v3.BmobUser;
 import cn.bmob.v3.datatype.BmobFile;
 import cn.bmob.v3.exception.BmobException;
+import cn.bmob.v3.listener.FindListener;
 import cn.bmob.v3.listener.UpdateListener;
 import cn.bmob.v3.listener.UploadFileListener;
 import de.hdodenhof.circleimageview.CircleImageView;
@@ -68,16 +74,17 @@ public class AboutMe extends BaseFragment {
     TextView User_qq;
     @BindView(R.id.user_credit)
     TextView User_credit;
+    @BindView(R.id.good_number)
+    TextView User_good;
+
     @BindView(R.id.user_history)
     LinearLayout User_history;
-    @BindView(R.id.user_collect)
-    LinearLayout User_collect;
-    @BindView(R.id.user_location)
-    LinearLayout User_location;
     @BindView(R.id.user_circle)
     LinearLayout User_circle;
     @BindView(R.id.user_setting)
     LinearLayout User_setting;
+    @BindView(R.id.user_yijian)
+    LinearLayout User_yijian;
     @BindView(R.id.user_aboutUs)
     LinearLayout User_abouUs;
 
@@ -89,6 +96,8 @@ public class AboutMe extends BaseFragment {
     public static final int RESULT_REQUEST_CODE = 102;
     private static final int REQUEST_BLUETOOTH_PERMISSION = 10;
     private File tempFile = null;
+
+    private int goodNum;
 
     @Nullable
     @Override
@@ -112,6 +121,7 @@ public class AboutMe extends BaseFragment {
      * 初始化View
      * */
     public void initView() {
+        goodNum = 0;
         if (BmobUser.getCurrentUser()!= null) {
             UserEntity userEntity = BmobUser.getCurrentUser(UserEntity.class);
             if (userEntity.getUser_icon()!=null) {
@@ -122,7 +132,48 @@ public class AboutMe extends BaseFragment {
             User_qq.setText(userEntity.getUser_qq());
             User_credit.setText(userEntity.getUser_credit()+"");
             User_phoneNum.setText(userEntity.getUser_phoneNum());
+            getNumGood();
         }
+    }
+
+    private Handler handler = new Handler() {
+        @Override
+        public void handleMessage(Message msg) {
+            super.handleMessage(msg);
+            switch (msg.what) {
+                case 1:
+                    int num = (int)msg.obj;
+                    User_good.setText(num+"");
+                    break;
+            }
+        }
+    };
+
+    private void getNumGood() {
+        new Thread(new Runnable() {
+            @Override
+            public void run() {
+                BmobQuery<GoodEntity> query = new BmobQuery<>();
+                query.include("thingEntity");
+                final String name = BmobUser.getCurrentUser(UserEntity.class).getUser_name();
+                query.findObjects(new FindListener<GoodEntity>() {
+                    @Override
+                    public void done(List<GoodEntity> list, BmobException e) {
+                        if (list != null)
+                            for (GoodEntity goodEntity:list) {
+                                if (goodEntity.getThingEntity().getAuthor().getUser_name()
+                                        .equals(name)){
+                                    goodNum++;
+                                }
+                            }
+                    }
+                });
+                Message message = new Message();
+                message.obj = goodNum;
+                message.what = 1;
+                handler.sendMessage(message);
+            }
+        }).start();
     }
 
     @Override
@@ -282,5 +333,6 @@ public class AboutMe extends BaseFragment {
                 startActivity(new Intent(getContext(), HistoryActivity.class));
             }
         });
+
     }
 }
