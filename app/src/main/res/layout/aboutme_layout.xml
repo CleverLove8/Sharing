@@ -322,7 +322,7 @@
                 android:layout_height="match_parent"
                 android:layout_marginTop="5dp"
                 android:layout_marginLeft="-25dp"
-                android:text="系统设置"
+                android:text="个人资料"
                 android:textSize="20dp"
                 />
             <ImageView

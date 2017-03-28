@@ -15,12 +15,22 @@ public class UserEntity extends BmobUser implements Serializable {
     private String User_qq;
     private int User_credit;
     private String User_Position;
+    private String sex;
+    private String birth;
     private BmobFile User_icon;
 
-    public void setUser_name(String name) {this.User_name = name;}
+    public void setUser_name(String name) {
+        setUsername(name);
+        User_name = name;
+    }
     public String getUser_name() {return User_name;}
-    public void setUser_phoneNum(String phoneNum){this.User_phoneNum = phoneNum;}
-    public String getUser_phoneNum() {return User_phoneNum;}
+    public void setUser_phoneNum(String phoneNum){
+        setMobilePhoneNumber(phoneNum);
+        setMobilePhoneNumberVerified(true);
+        User_phoneNum = phoneNum;
+    }
+
+    public String getUser_phoneNum() {return BmobUser.getCurrentUser().getMobilePhoneNumber();}
     public void setUser_qq(String qq) {this.User_qq = qq;}
     public String getUser_qq() {return  User_qq;}
     public void setUser_credit(int credit){this.User_credit = credit;}
@@ -29,4 +39,8 @@ public class UserEntity extends BmobUser implements Serializable {
     public String getUser_Position() {return User_Position;}
     public void setUser_icon(BmobFile icon) {this.User_icon = icon;}
     public BmobFile getUser_icon() {return User_icon;}
+    public String getSex() {return sex;}
+    public void  setSex(String str) {sex = str;}
+    public String getBirth() {return birth;}
+    public void setBirth(String birth) {this.birth = birth;}
 }

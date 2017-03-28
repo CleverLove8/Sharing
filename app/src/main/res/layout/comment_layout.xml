@@ -16,7 +16,7 @@
             android:background="@color/color_white"
             android:padding="10dp"
             android:gravity="left|top"
-            android:hint="物品说明..."
+            android:hint="评论"
             android:inputType="textMultiLine"
             android:maxLength="64"
             android:textColor="@color/clr_sub_text"

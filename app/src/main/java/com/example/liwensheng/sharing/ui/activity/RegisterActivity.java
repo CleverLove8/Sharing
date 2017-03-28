@@ -98,6 +98,7 @@ public class RegisterActivity extends AppCompatActivity {
         user.setUser_phoneNum(phone);
         user.setUser_name(phone);
         user.setMobilePhoneNumber(phone);
+        user.setPassword(password);
         user.signOrLogin(code, new SaveListener<UserEntity>() {
             @Override
             public void done(UserEntity user,BmobException e) {
