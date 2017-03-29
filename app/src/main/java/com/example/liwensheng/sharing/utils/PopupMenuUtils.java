@@ -1,7 +1,6 @@
 package com.example.liwensheng.sharing.utils;
 
 import android.animation.ObjectAnimator;
-import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.graphics.drawable.BitmapDrawable;
@@ -12,11 +11,13 @@ import android.widget.ImageView;
 import android.widget.LinearLayout;
 import android.widget.PopupWindow;
 import android.widget.RelativeLayout;
+import android.widget.TextView;
 import android.widget.Toast;
 
 import com.example.liwensheng.sharing.R;
 import com.example.liwensheng.sharing.ui.activity.MainActivity;
 import com.example.liwensheng.sharing.ui.activity.PushActivity;
+
 
 /**
  * Created by liWensheng on 2017/3/7.
@@ -39,6 +40,7 @@ public class PopupMenuUtils {
     private RelativeLayout rlClick;
     private ImageView ivBtn;
     private LinearLayout llTest7, llTest8;
+
 
     /**
      * 动画执行的 属性值数组
@@ -250,4 +252,5 @@ public class PopupMenuUtils {
         anim.setDuration(duration);
         anim.start();
     }
+
 }
