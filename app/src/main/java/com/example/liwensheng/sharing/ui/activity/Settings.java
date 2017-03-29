@@ -130,7 +130,7 @@ public class Settings extends AppCompatActivity {
                         @Override
                         public void done(BmobException e) {
                             if (e != null)
-                                Toast.makeText(Settings.this, e.toString(), Toast.LENGTH_SHORT).show();
+                                e.printStackTrace();
                             Toast.makeText(Settings.this, "保存成功！", Toast.LENGTH_SHORT).show();
                             startActivity(new Intent(Settings.this, MainActivity.class));
                             finish();

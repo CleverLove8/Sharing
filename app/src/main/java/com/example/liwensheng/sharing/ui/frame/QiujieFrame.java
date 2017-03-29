@@ -171,11 +171,11 @@ public class QiujieFrame extends BaseFragment {
                         }
                     }
                     else if (actionType == STATE_MORE) {
-                        Toast.makeText(getContext(),"没有更多了", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getContext(),"没有更多了", Toast.LENGTH_LONG).show();
                         mRefreshLayout.setLoading(false); // 结束旋转ProgressBar
                     }
                     else if (actionType == STATE_REFRESH) {
-                        Toast.makeText(getContext(),"没有数据", Toast.LENGTH_LONG).show();
+//                        Toast.makeText(getContext(),"没有数据", Toast.LENGTH_LONG).show();
                     }
                     loading = false;
                     mRefreshLayout.setRefreshing(false); // 请求完成结束刷新状态
@@ -185,7 +185,7 @@ public class QiujieFrame extends BaseFragment {
                     if (actionType == STATE_MORE) {
                         mRefreshLayout.setLoading(false); // 结束旋转ProgressBar
                     }
-                    Toast.makeText(getContext(),"请求异常，请稍后重试：" + e.toString(), Toast.LENGTH_LONG).show();
+//                    Toast.makeText(getContext(),"请求异常，请稍后重试：" + e.toString(), Toast.LENGTH_LONG).show();
                     loading = false;
                     mRefreshLayout.setRefreshing(false);
                 }
