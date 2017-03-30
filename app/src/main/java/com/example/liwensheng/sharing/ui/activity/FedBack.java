@@ -2,6 +2,7 @@ package com.example.liwensheng.sharing.ui.activity;
 
 import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.Toast;
@@ -42,6 +43,16 @@ public class FedBack extends AppCompatActivity {
         for (int i = 0; i < 5; i++) {
             flag[i] = false;
         }
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode){
+            case KeyEvent.KEYCODE_BACK:
+                finish();
+                break;
+        }
+        return super.onKeyUp(keyCode, event);
     }
 
     @OnClick({R.id.btn1, R.id.btn2, R.id.btn3, R.id.btn4})

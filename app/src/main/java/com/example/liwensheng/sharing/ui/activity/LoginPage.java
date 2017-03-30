@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.support.v7.widget.CardView;
 import android.text.TextUtils;
 import android.view.Gravity;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.Button;
 import android.widget.EditText;
@@ -58,6 +59,16 @@ public class LoginPage extends AppCompatActivity {
         setContentView(R.layout.activity_login_page);
         ButterKnife.bind(this);
         initView();
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode){
+            case KeyEvent.KEYCODE_BACK:
+                finish();
+                break;
+        }
+        return super.onKeyUp(keyCode, event);
     }
 
     @Override

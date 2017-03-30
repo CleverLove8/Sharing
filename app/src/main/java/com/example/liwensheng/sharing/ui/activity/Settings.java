@@ -6,6 +6,7 @@ import android.os.Handler;
 import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.text.TextUtils;
+import android.view.KeyEvent;
 import android.view.View;
 import android.widget.EditText;
 import android.widget.ProgressBar;
@@ -60,6 +61,16 @@ public class Settings extends AppCompatActivity {
 
         clickSave();
         loadInfo();
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode){
+            case KeyEvent.KEYCODE_BACK:
+                finish();
+                break;
+        }
+        return super.onKeyUp(keyCode, event);
     }
 
     private Handler handler = new Handler() {

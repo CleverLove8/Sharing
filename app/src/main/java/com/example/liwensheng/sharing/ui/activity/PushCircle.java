@@ -7,6 +7,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.text.Editable;
 import android.text.TextUtils;
 import android.text.TextWatcher;
+import android.view.KeyEvent;
 import android.widget.TextView;
 import android.widget.Toast;
 
@@ -68,6 +69,16 @@ public class PushCircle extends AppCompatActivity {
             public void afterTextChanged(Editable s) {
             }
         });
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode){
+            case KeyEvent.KEYCODE_BACK:
+                finish();
+                break;
+        }
+        return super.onKeyUp(keyCode, event);
     }
 
     /**

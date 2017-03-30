@@ -14,6 +14,7 @@ import android.text.TextUtils;
 import android.transition.Transition;
 import android.transition.TransitionInflater;
 import android.util.Log;
+import android.view.KeyEvent;
 import android.view.View;
 import android.view.ViewAnimationUtils;
 import android.view.animation.AccelerateInterpolator;
@@ -59,6 +60,16 @@ public class RegisterActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_register);
         ButterKnife.bind(this);
+    }
+
+    @Override
+    public boolean onKeyUp(int keyCode, KeyEvent event) {
+        switch (keyCode){
+            case KeyEvent.KEYCODE_BACK:
+                finish();
+                break;
+        }
+        return super.onKeyUp(keyCode, event);
     }
 
     @OnClick(R.id.tv_code)
