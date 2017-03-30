@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    style="@style/w_match_h_wrap"
+    android:orientation="vertical"
+    android:paddingBottom="8dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="8dp"
+    android:background="@drawable/comment_bck"
+    >
+
+    <RelativeLayout
+        style="@style/w_match_h_wrap"
+        android:layout_height="40dp"
+        android:paddingBottom="3dp">
+
+        <de.hdodenhof.circleimageview.CircleImageView
+            android:id="@+id/comment_icon"
+            android:layout_width="40dp"
+            android:layout_height="40dp"
+            android:src="@drawable/default_avatar"
+            android:layout_alignParentLeft="true"/>
+
+        <LinearLayout
+            style="@style/w_match_h_match"
+            android:orientation="vertical"
+            android:layout_toRightOf="@+id/comment_icon"
+            android:paddingLeft="10dp">
+
+            <LinearLayout
+                style="@style/h_weight_w_match"
+                android:layout_weight="1"
+                android:gravity="center_vertical">
+                <TextView
+                    android:id="@+id/comment_user"
+                    style="@style/w_wrap_h_match"
+                    android:text="zhangsan"
+                    android:gravity="center_vertical"
+                    android:textColor="@color/clr_main_text"/>
+
+
+                <TextView
+                    android:id="@+id/comment_time"
+                    style="@style/w_wrap_h_wrap"
+                    android:text="2017-01-01 00:00:00"
+                    android:textSize="10sp"
+                    android:paddingLeft="10dp"/>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </RelativeLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1"
+        android:gravity="top"
+        android:orientation="horizontal"
+        >
+        <TextView
+            android:id="@+id/comment_content"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="2dp"
+            android:gravity="top"
+            android:maxLines="4"
+            android:text="这个是内容预览"
+            android:textSize="12sp" />
+    </LinearLayout>
+</LinearLayout>

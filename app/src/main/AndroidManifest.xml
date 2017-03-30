@@ -122,6 +122,16 @@
             android:windowSoftInputMode="adjustPan"
             />
 
+        <activity android:name=".ui.activity.CircleDetail"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan"
+            />
+
+        <activity android:name=".ui.activity.PushCircle"
+            android:theme="@style/AppTheme"
+            android:windowSoftInputMode="adjustPan"
+            />
+
         <receiver android:name="cn.bmob.newim.core.ConnectChangeReceiver">
             <intent-filter>
                 <action android:name="cn.bmob.action.RECONNECT" />
