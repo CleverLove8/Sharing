@@ -85,6 +85,7 @@ public class CircleDetail extends AppCompatActivity {
         Bundle bundle = this.getIntent().getExtras();
         id = bundle.getInt("id");
 
+        loadImg();
         showPublishDialog();
         initRefreshLayout();
     }
@@ -93,13 +94,64 @@ public class CircleDetail extends AppCompatActivity {
     public boolean onKeyUp(int keyCode, KeyEvent event) {
         switch (keyCode){
             case KeyEvent.KEYCODE_BACK:
-                Intent intent = new Intent(CircleDetail.this, PushCircle.class);
-                intent.putExtra("id", id);
-                startActivity(intent);
                 finish();
                 break;
         }
         return super.onKeyUp(keyCode, event);
+    }
+
+    private void loadImg() {
+            switch (id) {
+                case 0:
+                    banner.setBackgroundResource(R.mipmap.bookbg);
+                    circleImg.setImageResource(R.mipmap.bookcircle);
+                    circleTitle.setText("读书圈");
+                    circleNotice.setText("想和你一起翻开这本书");
+                    circleHuaTi.setText("说说你印象最深的一本书吧");
+                    break;
+                case 1:
+                    banner.setBackgroundResource(R.mipmap.basketbg);
+                    circleImg.setImageResource(R.mipmap.basketball);
+                    circleTitle.setText("约球圈");
+                    circleNotice.setText("basketball is amazing!");
+                    circleHuaTi.setText("库里是否是真正的超级明星");
+                    break;
+                case 2:
+                    banner.setBackgroundResource(R.mipmap.runbg);
+                    circleImg.setImageResource(R.mipmap.run);
+                    circleTitle.setText("约跑圈");
+                    circleNotice.setText("生命在于跑跑跑");
+                    circleHuaTi.setText("今天又快了多少秒");
+                    break;
+                case 3:
+                    banner.setBackgroundResource(R.mipmap.moviebg);
+                    circleImg.setImageResource(R.mipmap.movie);
+                    circleTitle.setText("约影圈");
+                    circleNotice.setText("想和我一起吃爆米花么");
+                    circleHuaTi.setText("电影院的最佳位置在哪里");
+                    break;
+                case 4:
+                    banner.setBackgroundResource(R.mipmap.foodbg);
+                    circleImg.setImageResource(R.mipmap.food);
+                    circleTitle.setText("约吃圈");
+                    circleNotice.setText("唯有美食不可辜负");
+                    circleHuaTi.setText("各地有什么代表性的美食呢");
+                    break;
+                case 5:
+                    banner.setBackgroundResource(R.mipmap.chatbg);
+                    circleImg.setImageResource(R.mipmap.qingsu);
+                    circleTitle.setText("约聊圈");
+                    circleNotice.setText("陌生人，听我唱一首歌？");
+                    circleHuaTi.setText("进天你会讲怎样的故事");
+                    break;
+                case 6:
+                    banner.setBackgroundResource(R.mipmap.chuyoubg);
+                    circleImg.setImageResource(R.mipmap.chuyou);
+                    circleTitle.setText("约玩圈");
+                    circleNotice.setText("刚相逢也可玩到嗨起");
+                    circleHuaTi.setText("你会和陌生人一起去坐过山车么");
+                    break;
+            }
     }
 
 

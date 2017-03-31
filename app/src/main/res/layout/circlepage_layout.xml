@@ -4,7 +4,9 @@
     xmlns:app="http://schemas.android.com/apk/res-auto"
     android:orientation="vertical"
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:background="@color/gray_bg"
+    >
     <include layout="@layout/menu_circle"/>
 
     <com.yyydjk.library.BannerLayout
@@ -24,11 +26,15 @@
         app:unSelectedIndicatorColor="#99ffffff"
         app:unSelectedIndicatorHeight="6dp"
         app:unSelectedIndicatorWidth="6dp"/>
+    <!--可能感兴趣的圈子-->
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
         android:orientation="vertical"
         android:layout_marginTop="8dp"
+        android:background="@color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
         >
         <LinearLayout
             android:layout_width="match_parent"
@@ -55,10 +61,13 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal"
             android:layout_marginTop="5dp"
+            android:paddingRight="5dp"
+            android:paddingLeft="5dp"
             >
             <LinearLayout
-                android:layout_width="60dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -76,7 +85,7 @@
                     android:background="@drawable/bt_shape"
                     >
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:src="@mipmap/bookcircle"
                         />
@@ -102,8 +111,9 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="60dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -121,7 +131,7 @@
                     android:background="@drawable/bt_shape"
                     >
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:src="@mipmap/basketball"
                         />
@@ -147,8 +157,9 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="60dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -166,7 +177,7 @@
                     android:background="@drawable/bt_shape"
                     >
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:src="@mipmap/run"
                         />
@@ -192,8 +203,9 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="60dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -211,7 +223,7 @@
                     android:background="@drawable/bt_shape"
                     >
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:src="@mipmap/movie"
                         />
@@ -237,8 +249,9 @@
             </LinearLayout>
 
             <LinearLayout
-                android:layout_width="60dp"
+                android:layout_width="0dp"
                 android:layout_height="wrap_content"
+                android:layout_weight="1"
                 android:orientation="vertical"
                 android:gravity="center"
                 android:layout_gravity="center"
@@ -256,7 +269,7 @@
                     android:background="@drawable/bt_shape"
                     >
                     <ImageView
-                        android:layout_width="30dp"
+                        android:layout_width="wrap_content"
                         android:layout_height="40dp"
                         android:src="@mipmap/food"
                         />
@@ -282,4 +295,115 @@
             </LinearLayout>
         </LinearLayout>
     </LinearLayout>
+
+    <!--话题1-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="10dp"
+            android:background="@color/white"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+            >
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginLeft="10dp"
+                >
+                <View
+                    android:layout_width="5dp"
+                    android:layout_height="20dp"
+                    android:background="@color/bottom_btn_selected"
+                    />
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="3dp"
+                    android:text="享借你的闲时"
+                    android:textSize="15dp"
+                    android:textColor="@color/black_semi_transparent"
+                    />
+            </LinearLayout>
+            <ScrollView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+            </ScrollView>
+            <LinearLayout
+                android:id="@+id/chat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                >
+                <ImageView
+                    android:layout_width="80dp"
+                    android:layout_height="60dp"
+                    android:src="@mipmap/qingsu"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text= "陌生人你愿意听我讲故事么?"
+                        android:textColor="@color/black_semi_transparent"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="3dp"
+                        android:text="借你的一段闲时，听我心中的故事。"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/play"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_marginTop="8dp"
+                >
+                <ImageView
+                    android:layout_width="70dp"
+                    android:layout_height="60dp"
+                    android:layout_marginLeft="6dp"
+                    android:src="@mipmap/chuyou"
+                    />
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical"
+                    >
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text= "我们一起去玩吧"
+                        android:layout_marginLeft="3dp"
+                        android:textColor="@color/black_semi_transparent"
+                        android:textSize="15dp"
+                        />
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="13dp"
+                        android:layout_marginLeft="3dp"
+                        android:text="你我共享闲时，共享美好时光。"
+                        android:textColor="@color/gray_bg"
+                        android:textSize="12dp"
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
 </LinearLayout>

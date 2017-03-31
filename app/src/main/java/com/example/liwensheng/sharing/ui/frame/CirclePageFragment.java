@@ -62,7 +62,8 @@ public class CirclePageFragment extends BaseFragment {
     /**
      * 点击圈子进入
      * */
-    @OnClick({R.id.bookBtn, R.id.basketballBtn, R.id.runBtn, R.id.movieBtn, R.id.foodBtn})
+    @OnClick({R.id.bookBtn, R.id.basketballBtn, R.id.runBtn,
+            R.id.movieBtn, R.id.foodBtn, R.id.chat, R.id.play})
     public void circleDetail(View view) {
         int id = 0;
         switch (view.getId()) {
@@ -80,6 +81,12 @@ public class CirclePageFragment extends BaseFragment {
                 break;
             case R.id.foodBtn:
                 id = 4;
+                break;
+            case R.id.chat:
+                id = 5;
+                break;
+            case R.id.play:
+                id = 6;
                 break;
         }
         Intent intent = new Intent(getContext(), CircleDetail.class);
