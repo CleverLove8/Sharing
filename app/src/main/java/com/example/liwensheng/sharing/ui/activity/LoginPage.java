@@ -140,6 +140,11 @@ public class LoginPage extends AppCompatActivity {
         }
     }
 
+    @OnClick(R.id.forget)
+    public void forget() {
+        startActivity(new Intent(LoginPage.this, FindPassword.class));
+    }
+
     private void initClient() {
         LCChatKit.getInstance().open(BmobUser.getCurrentUser(UserEntity.class).getUsername()
                 , new AVIMClientCallback() {
